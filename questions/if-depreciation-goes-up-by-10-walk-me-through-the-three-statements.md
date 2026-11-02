@@ -10,6 +10,8 @@ faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"ma
 
 [100 IB Interview Questions](../../) › [Questions](../) › This question
 
+**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&q=if-depreciation-goes-up-by-10-walk-me-through-the-three-statements)
+
 {% include qpage-cta.html %}
 
 ## What the interviewer is testing

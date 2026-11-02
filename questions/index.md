@@ -9,6 +9,8 @@ tagline: "One page per question: what is tested, a framework, a sample answer an
 
 [100 IB Interview Questions](../) › Questions
 
+**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
+
 ### [Walk me through a DCF](walk-me-through-a-dcf/)
 
 _Easy_ · How to answer "walk me through a DCF" in an investment banking interview: a five-step framework, a sample answer, likely follow-ups and common mistakes.

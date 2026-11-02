@@ -9,6 +9,10 @@ import json, os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from question_pages_data import PAGES
+AC_URL = "https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib"
+# Questions with a rubric in the self-check (AIE repo tools/answer_check_data.py IB keys); others open the tool on the IB track.
+AC_SLUGS = {"walk-me-through-a-dcf", "walk-me-through-the-three-financial-statements", "if-depreciation-goes-up-by-10-walk-me-through-the-three-statements", "enterprise-value-vs-equity-value", "what-is-wacc-and-how-do-you-calculate-it", "what-is-terminal-value-and-how-do-you-calculate-it", "walk-me-through-an-lbo-model", "how-do-you-do-a-paper-lbo", "walk-me-through-a-merger-model", "why-investment-banking"}
+SELFCHECK = "**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds]({url})\n\n"
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://johnnnmai.github.io/investment-banking-interview-questions"
@@ -32,6 +36,7 @@ def page(p):
           "slug": p["slug"], "tagline": f"Investment banking interview question ({p['level']}): how to answer it", "faq_jsonld": ld}
     o = [front(fm)]
     o.append("[100 IB Interview Questions](../../) › [Questions](../) › This question\n\n")
+    o.append(SELFCHECK.format(url=AC_URL + (f"&q={p['slug']}" if p["slug"] in AC_SLUGS else "")))
     o.append("{% include qpage-cta.html %}\n\n")
     o.append("## What the interviewer is testing\n\n" + p["testing"] + "\n\n")
     o.append("## Answer framework\n\n" + "".join(f"{i}. {s}\n" for i, s in enumerate(p["steps"], 1)) + "\n")
@@ -53,7 +58,7 @@ def index():
     fm = {"layout": "question", "title": "Investment Banking Interview Questions: Answer Frameworks and Sample Answers",
           "description": "Deep dives on the most-asked IB interview questions: DCF, three statements, EV vs equity value, WACC, LBO, merger model and why investment banking.",
           "permalink": "/questions/", "slug": "questions-index", "tagline": "One page per question: what is tested, a framework, a sample answer and common mistakes"}
-    o = [front(fm), "[100 IB Interview Questions](../) › Questions\n\n"]
+    o = [front(fm), "[100 IB Interview Questions](../) › Questions\n\n", SELFCHECK.format(url=AC_URL)]
     for p in PAGES:
         o.append(f"### [{p['q']}]({p['slug']}/)\n\n_{p['level']}_ · {p['desc']}\n\n")
     o.append("**Practice tool:** [Check your interview answer with the free Answer Self-Check](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib) (score, missed concepts and tips).\n\n")
