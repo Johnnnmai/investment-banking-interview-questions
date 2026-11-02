@@ -4,7 +4,7 @@ _Last updated: November 1, 2026_ · Every question answered · Tagged by topic a
 
 The technical questions IB analyst and associate interviews keep asking, organized the way a superday is: **accounting, valuation, M&A, LBO, and industry/current events**, plus the six fit questions you will almost certainly get. Each answer is the concise version you can say in about a minute; follow-ups and common mistakes are flagged where interviewers tend to push.
 
-**Start with the 30 questions that come up most.** [*IB Interview: Top 30 Questions*, a free 13-page guide with model answers](https://sirjohnnymai.gumroad.com/l/ib-top-30-questions?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_top). Paid option: [*North America Interview Full Package* ($59)](https://sirjohnnymai.gumroad.com/l/xzptir?offer_code=EARLYBF&utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_top_paid), a resume system, a PM and TPM interview handbook, a 1:1 cheat sheet and a PM playbook, 40% off with code EARLYBF until Nov 3, 11:59 PM PT.
+**Start with the 30 questions that come up most.** [*IB Interview: Top 30 Questions*, a free 13-page guide with model answers](https://sirjohnnymai.gumroad.com/l/ib-top-30-questions?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_top).
 
 **Question deep dives:** [answer frameworks, sample answers and common mistakes for 50 of the most-asked questions](questions/) (DCF, three statements, EV vs equity value, WACC, LBO, merger model, why IB).
 
@@ -690,7 +690,7 @@ Fit decides as many superdays as technicals. Prepare these six:
 | 13-14 | Fit stories plus a timed mock: 10 random questions, 1 minute each |
 
 ## Next step
-[**IB Interview: Top 30 Questions**: model answers to the 30 most-asked questions, free](https://sirjohnnymai.gumroad.com/l/ib-top-30-questions?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_bottom) · Paid option: [North America Interview Full Package ($59)](https://sirjohnnymai.gumroad.com/l/xzptir?offer_code=EARLYBF&utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_bottom_paid)
+[**IB Interview: Top 30 Questions**: model answers to the 30 most-asked questions, free](https://sirjohnnymai.gumroad.com/l/ib-top-30-questions?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_bottom)
 
 ---
 Published by Valenx Press, from *The 0 to 1 Interview Playbook* series. Last updated November 1, 2026. Questions reflect common public interview patterns; no bank affiliation. Answers are for interview preparation, not investment advice. Spotted an error or want to add a question you were asked? Open an issue or PR.

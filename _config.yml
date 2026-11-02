@@ -4,7 +4,8 @@ theme: jekyll-theme-cayman
 
 # /questions/ pages
 qpage_site: https://johnnnmai.github.io/investment-banking-interview-questions
-qpage_cta:  # paid CTA: the single paid constant for every page
+qpage_cta:  # paid CTA constant. show: false hides every paid link on IB surfaces (Nov 1 2026: no paid CTA here; the PM bundle is not IB prep)
+  show: false
   url: https://sirjohnnymai.gumroad.com/l/xzptir?offer_code=EARLYBF  # EARLYBF: 40% off until Nov 3 2026 11:59 PM PT; remove the query after that
   label: The Full Package
   headline: Want the whole job search in one download?
