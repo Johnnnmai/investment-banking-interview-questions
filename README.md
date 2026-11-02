@@ -2,13 +2,17 @@
 
 _Last updated: November 1, 2026_ · Every question answered · Tagged by topic and difficulty · Free, no sign-up
 
-The technical questions IB analyst and associate interviews keep asking, organized the way a superday is: **accounting, valuation, M&A, LBO, and industry/current events**, plus the six fit questions you will almost certainly get. Each answer is the concise version you can say in about a minute; follow-ups and common mistakes are flagged where interviewers tend to push.
+100 technical IB interview questions with concise model answers — accounting, valuation, M&A, LBO, and current events, organized the way a superday is.
 
-**Start with the 30 questions that come up most.** [*IB Interview: Top 30 Questions*, a free 13-page guide with model answers](https://sirjohnnymai.gumroad.com/l/ib-top-30-questions?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_top).
+### Quick start
 
-**Question deep dives:** [answer frameworks, sample answers and common mistakes for 50 of the most-asked questions](questions/) (DCF, three statements, EV vs equity value, WACC, LBO, merger model, why IB).
+🆓 **Top 30 questions** — [Free 13-page guide with model answers](https://sirjohnnymai.gumroad.com/l/ib-top-30-questions?utm_source=github&utm_medium=readme&utm_campaign=line26_20261101&utm_content=investment-banking-interview-questions)
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib).
+🆓 **Self-check** — [Paste your answer and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&utm_source=github&utm_medium=readme&utm_campaign=line26_20261101&utm_content=investment-banking-interview-questions)
+
+🆓 **Question deep dives** — [Answer frameworks, sample answers and common mistakes for 50 of the most-asked questions](questions/)
+
+---
 
 **How to drill:** answer out loud first, then read the answer. Score yourself 1 to 5: 1 = can't start; 3 = right answer but shaky on the why; 5 = clean answer that handles the follow-up. Re-drill anything under 4. Numbers use a 25% tax rate unless stated.
 
