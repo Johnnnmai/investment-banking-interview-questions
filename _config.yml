@@ -5,7 +5,7 @@ theme: jekyll-theme-cayman
 # /questions/ pages
 qpage_site: https://johnnnmai.github.io/investment-banking-interview-questions
 qpage_cta:
-  url: https://sirjohnnymai.gumroad.com/l/ib-interview-playbook
+  url: https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?offer_code=EARLYBF  # EARLYBF: 40% off until Nov 3 2026 11:59 PM PT; remove the query after that
   headline: Need the frameworks and full walkthroughs?
   text: The 0 to 1 Investment Banking Interview Playbook covers fit and behavioral answers, modeling tests and a prep plan.
   button: Get the playbook

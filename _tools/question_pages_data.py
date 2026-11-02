@@ -280,3 +280,10 @@ PAGES = [
  "related": ["walk-me-through-the-three-financial-statements", "walk-me-through-a-dcf", "walk-me-through-an-lbo-model"],
 },
 ]
+
+# Batch 2 (40 more pages) lives in question_pages_batch2.py.
+try:
+    from question_pages_batch2 import PAGES as _B2
+    PAGES = PAGES + _B2
+except ImportError:
+    pass
