@@ -49,6 +49,8 @@ _Easy_ · How to answer "walk me through a merger model": purchase price, combin
 
 _Fit_ · How to answer "why investment banking?": a structure built on specific reasons, an answer outline, and the generic answers to avoid in IB fit interviews.
 
+**Practice tool:** [Check your interview answer with the free Answer Self-Check](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib) (score, missed concepts and tips).
+
 [See all 100 investment banking interview questions with answers](../)
 
 {% include qpage-cta.html %}

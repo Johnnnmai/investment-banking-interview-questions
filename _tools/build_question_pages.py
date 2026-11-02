@@ -56,6 +56,7 @@ def index():
     o = [front(fm), "[100 IB Interview Questions](../) › Questions\n\n"]
     for p in PAGES:
         o.append(f"### [{p['q']}]({p['slug']}/)\n\n_{p['level']}_ · {p['desc']}\n\n")
+    o.append("**Practice tool:** [Check your interview answer with the free Answer Self-Check](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib) (score, missed concepts and tips).\n\n")
     o.append("[See all 100 investment banking interview questions with answers](../)\n\n{% include qpage-cta.html %}\n")
     return "".join(o)
 
