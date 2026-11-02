@@ -4,7 +4,7 @@ _Last updated: November 1, 2026_ · Every question answered · Tagged by topic a
 
 The technical questions IB analyst and associate interviews keep asking, organized the way a superday is: **accounting, valuation, M&A, LBO, and industry/current events**, plus the six fit questions you will almost certainly get. Each answer is the concise version you can say in about a minute; follow-ups and common mistakes are flagged where interviewers tend to push.
 
-**Need the frameworks and full walkthroughs?** They're in [*The 0 to 1 Investment Banking Interview Playbook* ($19.99, instant PDF)](https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101): fit/behavioral, modeling tests and a prep plan.
+**Need the frameworks and full walkthroughs?** They're in [*The 0 to 1 Investment Banking Interview Playbook* ($19.99, instant PDF)](https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?offer_code=EARLYBF&utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_top): fit/behavioral, modeling tests and a prep plan.
 
 **Question deep dives:** [answer frameworks, sample answers and common mistakes for 50 of the most-asked questions](questions/) (DCF, three statements, EV vs equity value, WACC, LBO, merger model, why IB).
 
@@ -350,7 +350,7 @@ Unlevered free cash flow is cash flow before interest and debt payments, availab
 
 Value goes down. The size depends on the inputs, especially the gap between the discount rate and the terminal growth rate. Example with Gordon Growth only: at a 10% discount rate and 2% growth, terminal value is proportional to 1/0.08; at 11% it is 1/0.09, about 11% lower. A one-point change commonly moves DCF value by roughly 10% to 15%, which is why bankers show sensitivity tables.
 
-> Want the EV bridge and DCF built step by step with practice numbers? See [the playbook](https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101).
+> Want the EV bridge and DCF built step by step with practice numbers? See [the playbook](https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?offer_code=EARLYBF&utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_mid).
 
 ## M&A (51-70)
 
@@ -690,7 +690,7 @@ Fit decides as many superdays as technicals. Prepare these six:
 | 13-14 | Fit stories plus a timed mock: 10 random questions, 1 minute each |
 
 ## Next step
-[**The 0 to 1 Investment Banking Interview Playbook**: frameworks and full walkthroughs for all of the above ($19.99, instant PDF)](https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101)
+[**The 0 to 1 Investment Banking Interview Playbook**: frameworks and full walkthroughs for all of the above ($19.99, instant PDF)](https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?offer_code=EARLYBF&utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101&utm_content=readme_bottom)
 
 ---
 Published by Valenx Press, from *The 0 to 1 Interview Playbook* series. Last updated November 1, 2026. Questions reflect common public interview patterns; no bank affiliation. Answers are for interview preparation, not investment advice. Spotted an error or want to add a question you were asked? Open an issue or PR.
