@@ -17,6 +17,13 @@ qpage_cta:  # paid CTA constant. show: false hides every paid link on IB surface
   promo_text: "40% off with code EARLYBF until Nov 3, 11:59 PM PT"  # shown only while the url contains EARLYBF
   offer_expires: "2026-11-04T07:59:00Z"  # EARLYBF expiry from the Gumroad product page; promo lines also hide client-side after it
   site_name: "Investment Banking Interview Questions"
+tier9_cta:  # $9 paid tier: one text line under the free Top 30 CTA on question pages and home (_includes/tier9-line.html). The free Top 30 stays primary.
+  # EARLYBF: 40% off until Nov 3 2026 11:59 PM PT (checked on the Gumroad product page Nov 1 2026); remove the ?offer_code query after that.
+  url: https://sirjohnnymai.gumroad.com/l/ib-50-questions-scoring-rubric?offer_code=EARLYBF
+  utm: utm_source=site&amp;utm_medium=cta&amp;utm_campaign=tripwire9_20261101
+  lead: "Next step: "
+  link_text: "Score your answers against 50 IB rubrics, $9"
+  post: ". 50 investment banking questions, one rubric each, PDF on Gumroad."
 free_cta:  # primary CTA: the free IB Top 30 guide (no offer code)
   url: https://sirjohnnymai.gumroad.com/l/ib-top-30-questions
   label: Free guide

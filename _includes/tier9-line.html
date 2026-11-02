@@ -1,0 +1,2 @@
+{%- comment -%} $9 scoring rubric text line, from site.tier9_cta in _config.yml. Params: campaign and place (utm_content is campaign_place), tier9 ('off' hides it). {%- endcomment -%}
+{%- if include.tier9 != 'off' and site.tier9_cta.url -%}{%- assign tu = site.tier9_cta.url -%}<p class="alt-buy tier9">{{ site.tier9_cta.lead }}<a href="{{ tu }}{% if tu contains '?' %}&amp;{% else %}?{% endif %}{{ site.tier9_cta.utm }}&amp;utm_content={{ include.campaign }}_{{ include.place }}">{{ site.tier9_cta.link_text }}</a>{{ site.tier9_cta.post }}</p>{%- endif -%}
