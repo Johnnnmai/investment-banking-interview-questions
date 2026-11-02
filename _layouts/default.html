@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}"{% if site.qpage_cta.url contains 'EARLYBF' %} data-offer-until="{{ site.qpage_cta.offer_expires }}"{% endif %}>
+  <head>
+    <meta charset="UTF-8">
+{% seo %}
+    <meta property="og:image" content="{{ site.qpage_site }}/assets/playbook-og.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include vp-icons.html %}
+    {% include head-custom.html %}
+  </head>
+  <body>
+{% include vp-nav.html %}
+{%- assign parts = content | split: '</h1>' -%}
+{%- if parts.size > 1 -%}
+{%- assign h1 = parts[0] | append: '</h1>' -%}
+{%- assign rest = content | remove_first: h1 -%}
+{%- else -%}
+{%- assign h1 = '<h1>' | append: site.title | append: '</h1>' -%}
+{%- assign rest = content -%}
+{%- endif %}
+<header class="qhero idx" data-hero><div class=wrap><div class="crumb label">Valenx Press / Interview question banks</div>{{ h1 }}<p class=lead>{{ site.description }}</p>{% include hero-buy.html campaign='ib_qbank_20261101' medium='qbank' source='github' ghost_href='questions/' ghost_text='Question deep dives' %}</div></header>
+<main id=main class=body><div class=read>
+{{ rest }}
+{% include qpage-cta.html campaign='ib_qbank_20261101' medium='qbank' source='github' %}
+</div></main>
+{% include sticky-cta.html campaign='ib_qbank_20261101' medium='qbank' source='github' %}
+{% include vp-foot.html %}
+  </body>
+</html>

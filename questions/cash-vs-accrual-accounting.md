@@ -4,55 +4,20 @@ title: "What is the difference between cash and accrual accounting?"
 description: "Cash vs accrual accounting for investment banking interviews: when revenue and expenses are recorded, a worked example, and why the cash flow statement exists."
 permalink: "/questions/cash-vs-accrual-accounting/"
 slug: "cash-vs-accrual-accounting"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is the difference between cash and accrual accounting?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Under cash accounting, you record revenue when the customer pays you and expenses when you pay a supplier. Under accrual accounting, you record revenue when you have earned it, meaning you delivered the product or service, and you record expenses in the period they help generate revenue, even if no cash has moved yet. For example, if a company delivers $100 of services in December and the client pays in February, accrual accounting shows $100 of December revenue and a $100 accounts receivable on the balance sheet. Cash accounting would show nothing until February. Likewise, wages earned by employees in December but paid in January are a December expense with an accrued liability under accrual accounting. Public companies use accrual accounting under US GAAP or IFRS because it matches revenue and costs to the right period. The trade-off is that net income no longer equals cash generated, which is exactly why we need the cash flow statement: it begins from net income, then reverses non-cash charges and reflects working capital movements to arrive at actual cash.\"}}, {\"@type\": \"Question\", \"name\": \"Can a profitable company run out of cash?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Under accrual accounting it can book profits while cash is tied up in receivables, inventory or capex, so it can still miss payments.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>What is the difference between cash and accrual accounting?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="cash-vs-accrual-accounting" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=cash-vs-accrual-accounting" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=cash-vs-accrual-accounting">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you understand the basic recognition principle behind the income statement and can connect it to why cash flow and net income differ.</p>
+<h2>Answer framework</h2><ol class=steps><li>Cash accounting: record revenue when cash is received and expenses when cash is paid.</li><li>Accrual accounting: record revenue when it is earned and expenses when they are incurred, matched to the period they relate to.</li><li>Public companies report under accrual accounting (US GAAP or IFRS); cash accounting is mostly for very small businesses.</li><li>Give an example: a sale on credit creates revenue and accounts receivable, but no cash yet.</li><li>Link to the statements: because net income is on an accrual basis, the cash flow statement reconciles it to actual cash.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Under cash accounting, you record revenue when the customer pays you and expenses when you pay a supplier. Under accrual accounting, you record revenue when you have earned it, meaning you delivered the product or service, and you record expenses in the period they help generate revenue, even if no cash has moved yet.</p><p class=ans>For example, if a company delivers $100 of services in December and the client pays in February, accrual accounting shows $100 of December revenue and a $100 accounts receivable on the balance sheet. Cash accounting would show nothing until February. Likewise, wages earned by employees in December but paid in January are a December expense with an accrued liability under accrual accounting.</p><p class=ans>Public companies use accrual accounting under US GAAP or IFRS because it matches revenue and costs to the right period. The trade-off is that net income no longer equals cash generated, which is exactly why we need the cash flow statement: it begins from net income, then reverses non-cash charges and reflects working capital movements to arrive at actual cash.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Can a profitable company run out of cash?</b> Yes. Under accrual accounting it can book profits while cash is tied up in receivables, inventory or capex, so it can still miss payments.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Saying accrual accounting records revenue when the invoice is paid.</li><li>Forgetting the matching of expenses to the revenue they generate.</li><li>Not connecting the difference to the cash flow statement.</li><li>Claiming large companies can choose cash accounting for reporting.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you understand the basic recognition principle behind the income statement and can connect it to why cash flow and net income differ.
-
-## Answer framework
-
-1. Cash accounting: record revenue when cash is received and expenses when cash is paid.
-2. Accrual accounting: record revenue when it is earned and expenses when they are incurred, matched to the period they relate to.
-3. Public companies report under accrual accounting (US GAAP or IFRS); cash accounting is mostly for very small businesses.
-4. Give an example: a sale on credit creates revenue and accounts receivable, but no cash yet.
-5. Link to the statements: because net income is on an accrual basis, the cash flow statement reconciles it to actual cash.
-
-## Sample answer
-
-> Under cash accounting, you record revenue when the customer pays you and expenses when you pay a supplier. Under accrual accounting, you record revenue when you have earned it, meaning you delivered the product or service, and you record expenses in the period they help generate revenue, even if no cash has moved yet.
->
-> For example, if a company delivers $100 of services in December and the client pays in February, accrual accounting shows $100 of December revenue and a $100 accounts receivable on the balance sheet. Cash accounting would show nothing until February. Likewise, wages earned by employees in December but paid in January are a December expense with an accrued liability under accrual accounting.
->
-> Public companies use accrual accounting under US GAAP or IFRS because it matches revenue and costs to the right period. The trade-off is that net income no longer equals cash generated, which is exactly why we need the cash flow statement: it begins from net income, then reverses non-cash charges and reflects working capital movements to arrive at actual cash.
-
-## Likely follow-ups
-
-**Can a profitable company run out of cash?** Yes. Under accrual accounting it can book profits while cash is tied up in receivables, inventory or capex, so it can still miss payments.
-
-## Common mistakes
-
-- Saying accrual accounting records revenue when the invoice is paid.
-- Forgetting the matching of expenses to the revenue they generate.
-- Not connecting the difference to the cash flow statement.
-- Claiming large companies can choose cash accounting for reporting.
-
-## Related questions
-
-- [Walk me through the three financial statements](../walk-me-through-the-three-financial-statements/)
-- [What is working capital and how does an increase affect cash flow?](../what-is-working-capital/)
-- [What is deferred revenue and is it a source or use of cash?](../what-is-deferred-revenue/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on question #4 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../walk-me-through-the-three-financial-statements/">Walk me through the three financial statements</a></li><li><a href="../what-is-working-capital/">What is working capital and how does an increase affect cash flow?</a></li><li><a href="../what-is-deferred-revenue/">What is deferred revenue and is it a source or use of cash?</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on question #4 in the <a href="../../">full question bank</a>.</p>
+</div></main>

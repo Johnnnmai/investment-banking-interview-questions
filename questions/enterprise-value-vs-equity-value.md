@@ -4,54 +4,20 @@ title: "Enterprise value vs equity value: what is the difference?"
 description: "Enterprise value vs equity value for IB interviews: definitions, the EV bridge, which multiples pair with each, and why minority interest is added back."
 permalink: "/questions/enterprise-value-vs-equity-value/"
 slug: "enterprise-value-vs-equity-value"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Enterprise value vs equity value: what is the difference?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Equity value is the value of the company's shares to common shareholders: diluted shares outstanding times the share price. Enterprise value is the value of the core operating business to all capital providers, including debt, preferred, noncontrolling interests and equity, excluding non-operating assets such as excess cash. To bridge, start with equity value, add debt, preferred stock and noncontrolling interests, plus other debt-like items if relevant, such as unfunded pension obligations, and subtract cash and non-operating assets such as equity-method investments. Use EV with metrics available to all capital providers, such as revenue, EBITDA, EBIT and unlevered FCF, and equity value with metrics after interest, such as net income, EPS and levered FCF.\"}}, {\"@type\": \"Question\", \"name\": \"Why do we add back minority interest in the EV bridge?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A parent that owns more than 50% of a subsidiary consolidates 100% of its revenue and EBITDA. Adding the noncontrolling interest keeps EV consistent with that EBITDA. Equity-method investments are subtracted for the opposite reason.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>Enterprise value vs equity value: what is the difference?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="enterprise-value-vs-equity-value" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=enterprise-value-vs-equity-value" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&q=enterprise-value-vs-equity-value)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=enterprise-value-vs-equity-value">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you know who each value belongs to, can walk the bridge between them, and can match each to the right metrics so multiples are consistent.</p>
+<h2>Answer framework</h2><ol class=steps><li>Equity value: value of the shares to common shareholders, diluted shares outstanding times share price.</li><li>Enterprise value: value of the core operating business to all capital providers, excluding non-operating assets such as excess cash.</li><li>Bridge: equity value + debt + preferred stock + noncontrolling interests (+ other debt-like items) - cash and non-operating assets = enterprise value.</li><li>Matching: EV with revenue, EBITDA, EBIT and unlevered FCF; equity value with net income, EPS and levered FCF.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Equity value is the value of the company&#x27;s shares to common shareholders: diluted shares outstanding times the share price. Enterprise value is the value of the core operating business to all capital providers, including debt, preferred, noncontrolling interests and equity, excluding non-operating assets such as excess cash.</p><p class=ans>To bridge, start with equity value, add debt, preferred stock and noncontrolling interests, plus other debt-like items if relevant, such as unfunded pension obligations, and subtract cash and non-operating assets such as equity-method investments.</p><p class=ans>Use EV with metrics available to all capital providers, such as revenue, EBITDA, EBIT and unlevered FCF, and equity value with metrics after interest, such as net income, EPS and levered FCF.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Why do we add back minority interest in the EV bridge?</b> A parent that owns more than 50% of a subsidiary consolidates 100% of its revenue and EBITDA. Adding the noncontrolling interest keeps EV consistent with that EBITDA. Equity-method investments are subtracted for the opposite reason.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Pairing equity value with EBITDA, or EV with net income.</li><li>Using basic instead of diluted shares for equity value.</li><li>Forgetting preferred stock and noncontrolling interests in the bridge.</li><li>Saying cash is added to get enterprise value; it is subtracted.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you know who each value belongs to, can walk the bridge between them, and can match each to the right metrics so multiples are consistent.
-
-## Answer framework
-
-1. Equity value: value of the shares to common shareholders, diluted shares outstanding times share price.
-2. Enterprise value: value of the core operating business to all capital providers, excluding non-operating assets such as excess cash.
-3. Bridge: equity value + debt + preferred stock + noncontrolling interests (+ other debt-like items) - cash and non-operating assets = enterprise value.
-4. Matching: EV with revenue, EBITDA, EBIT and unlevered FCF; equity value with net income, EPS and levered FCF.
-
-## Sample answer
-
-> Equity value is the value of the company's shares to common shareholders: diluted shares outstanding times the share price. Enterprise value is the value of the core operating business to all capital providers, including debt, preferred, noncontrolling interests and equity, excluding non-operating assets such as excess cash.
->
-> To bridge, start with equity value, add debt, preferred stock and noncontrolling interests, plus other debt-like items if relevant, such as unfunded pension obligations, and subtract cash and non-operating assets such as equity-method investments.
->
-> Use EV with metrics available to all capital providers, such as revenue, EBITDA, EBIT and unlevered FCF, and equity value with metrics after interest, such as net income, EPS and levered FCF.
-
-## Likely follow-ups
-
-**Why do we add back minority interest in the EV bridge?** A parent that owns more than 50% of a subsidiary consolidates 100% of its revenue and EBITDA. Adding the noncontrolling interest keeps EV consistent with that EBITDA. Equity-method investments are subtracted for the opposite reason.
-
-## Common mistakes
-
-- Pairing equity value with EBITDA, or EV with net income.
-- Using basic instead of diluted shares for equity value.
-- Forgetting preferred stock and noncontrolling interests in the bridge.
-- Saying cash is added to get enterprise value; it is subtracted.
-
-## Related questions
-
-- [Walk me through a DCF](../walk-me-through-a-dcf/)
-- [Walk me through a merger model](../walk-me-through-a-merger-model/)
-- [Walk me through the three financial statements](../walk-me-through-the-three-financial-statements/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #8, #9, #10 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../walk-me-through-a-dcf/">Walk me through a DCF</a></li><li><a href="../walk-me-through-a-merger-model/">Walk me through a merger model</a></li><li><a href="../walk-me-through-the-three-financial-statements/">Walk me through the three financial statements</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #8, #9, #10 in the <a href="../../">full question bank</a>.</p>
+</div></main>

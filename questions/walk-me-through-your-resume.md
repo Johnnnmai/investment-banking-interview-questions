@@ -4,56 +4,20 @@ title: "Walk me through your resume (investment banking interview)"
 description: "How to answer walk me through your resume in investment banking interviews: a two-minute story, key decisions, why banking, why now, and a sample structure."
 permalink: "/questions/walk-me-through-your-resume/"
 slug: "walk-me-through-your-resume"
-tagline: "Investment banking interview question (Fit): how to answer it"
+level: "Fit"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Walk me through your resume (investment banking interview)\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I am a senior studying economics, and I first got interested in finance in my sophomore year, when I joined the student investment club and pitched a mid-cap industrial company. Building that valuation was the first time I saw how accounting, strategy and markets connect, and I wanted to do more of that work. That led me to a summer internship at a corporate development team at a manufacturing company. I helped screen acquisition targets and built a simple comps analysis for one of them. The most valuable part was seeing how a deal moved from idea to board discussion, and also how much the advisers on the other side shaped that process. Last summer I interned in valuation advisory, where I worked on purchase price allocations and learned to be careful with models under deadline pressure. Those experiences pointed me toward investment banking: I want to be closer to transactions from start to finish, work on a wide range of companies and learn fast in a demanding team. That is why I am recruiting for analyst roles now, and why I am interested in this group in particular.\"}}, {\"@type\": \"Question\", \"name\": \"Why did you choose that internship over others?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Give a specific reason tied to what you wanted to learn, and avoid sounding like it was the only offer.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl F">Fit</span><h1>Walk me through your resume (investment banking interview)</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="walk-me-through-your-resume" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=walk-me-through-your-resume" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=walk-me-through-your-resume">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you can tell a concise, logical story of your background that explains how you arrived at banking, and whether you communicate like someone a client could hear from.</p>
+<h2>Answer framework</h2><ol class=steps><li>Keep it to about two minutes; it is a story, not a recital of every line.</li><li>Start with a brief anchor: school, major or where your interest began.</li><li>Pick two or three experiences and, for each, state the decision you made and what it taught you.</li><li>Connect them to why you want banking, using a concrete moment.</li><li>End with why you are interviewing now, then stop and let the interviewer ask questions.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>I am a senior studying economics, and I first got interested in finance in my sophomore year, when I joined the student investment club and pitched a mid-cap industrial company. Building that valuation was the first time I saw how accounting, strategy and markets connect, and I wanted to do more of that work.</p><p class=ans>That led me to a summer internship at a corporate development team at a manufacturing company. I helped screen acquisition targets and built a simple comps analysis for one of them. The most valuable part was seeing how a deal moved from idea to board discussion, and also how much the advisers on the other side shaped that process. Last summer I interned in valuation advisory, where I worked on purchase price allocations and learned to be careful with models under deadline pressure.</p><p class=ans>Those experiences pointed me toward investment banking: I want to be closer to transactions from start to finish, work on a wide range of companies and learn fast in a demanding team. That is why I am recruiting for analyst roles now, and why I am interested in this group in particular.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Why did you choose that internship over others?</b> Give a specific reason tied to what you wanted to learn, and avoid sounding like it was the only offer.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Reading the resume line by line.</li><li>Talking for five minutes without a clear thread.</li><li>Leaving out why banking and why now.</li><li>Inventing a neat story that does not match your actual choices.</li><li>Ending with a long list of skills instead of stopping.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you can tell a concise, logical story of your background that explains how you arrived at banking, and whether you communicate like someone a client could hear from.
-
-## Answer framework
-
-1. Keep it to about two minutes; it is a story, not a recital of every line.
-2. Start with a brief anchor: school, major or where your interest began.
-3. Pick two or three experiences and, for each, state the decision you made and what it taught you.
-4. Connect them to why you want banking, using a concrete moment.
-5. End with why you are interviewing now, then stop and let the interviewer ask questions.
-
-## Sample answer
-
-> I am a senior studying economics, and I first got interested in finance in my sophomore year, when I joined the student investment club and pitched a mid-cap industrial company. Building that valuation was the first time I saw how accounting, strategy and markets connect, and I wanted to do more of that work.
->
-> That led me to a summer internship at a corporate development team at a manufacturing company. I helped screen acquisition targets and built a simple comps analysis for one of them. The most valuable part was seeing how a deal moved from idea to board discussion, and also how much the advisers on the other side shaped that process. Last summer I interned in valuation advisory, where I worked on purchase price allocations and learned to be careful with models under deadline pressure.
->
-> Those experiences pointed me toward investment banking: I want to be closer to transactions from start to finish, work on a wide range of companies and learn fast in a demanding team. That is why I am recruiting for analyst roles now, and why I am interested in this group in particular.
-
-## Likely follow-ups
-
-**Why did you choose that internship over others?** Give a specific reason tied to what you wanted to learn, and avoid sounding like it was the only offer.
-
-## Common mistakes
-
-- Reading the resume line by line.
-- Talking for five minutes without a clear thread.
-- Leaving out why banking and why now.
-- Inventing a neat story that does not match your actual choices.
-- Ending with a long list of skills instead of stopping.
-
-## Related questions
-
-- [Why investment banking?](../why-investment-banking/)
-- [Why do you want to work at our bank?](../why-our-bank/)
-- [What is your greatest weakness? (investment banking interview)](../what-is-your-greatest-weakness/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on the fit questions section of the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../why-investment-banking/">Why investment banking?</a></li><li><a href="../why-our-bank/">Why do you want to work at our bank?</a></li><li><a href="../what-is-your-greatest-weakness/">What is your greatest weakness? (investment banking interview)</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on the fit questions section of the <a href="../../">full question bank</a>.</p>
+</div></main>

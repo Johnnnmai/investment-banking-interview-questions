@@ -4,57 +4,20 @@ title: "Walk me through an LBO model"
 description: "How to answer \"walk me through an LBO model\": sources and uses, cash flow and debt paydown, exit, IRR and MOIC, plus what makes a good LBO candidate."
 permalink: "/questions/walk-me-through-an-lbo-model/"
 slug: "walk-me-through-an-lbo-model"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Walk me through an LBO model\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A private equity firm buys a company using a large amount of debt and some equity. I set the purchase price and the sources and uses: debt and sponsor equity on one side, purchase price and fees on the other. Then I project the company's cash flows and use free cash flow to pay interest and repay debt. I assume an exit after about 3 to 7 years at an exit multiple, subtract the remaining net debt to get exit equity value, and calculate IRR and MOIC on the sponsor's equity. Returns come from three places: EBITDA growth, multiple expansion and debt paydown. Leverage magnifies all three.\"}}, {\"@type\": \"Question\", \"name\": \"What makes a good LBO candidate?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Stable, predictable cash flows to service debt, limited capex needs, a strong market position, room to improve, a reasonable price, assets that support borrowing, capable management and a clear exit path.\"}}, {\"@type\": \"Question\", \"name\": \"How do IRR and MOIC relate?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"For a single entry and exit, IRR = MOIC^(1/years) - 1, so the same MOIC over a shorter hold means a higher IRR.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>Walk me through an LBO model</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="walk-me-through-an-lbo-model" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=walk-me-through-an-lbo-model" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&q=walk-me-through-an-lbo-model)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=walk-me-through-an-lbo-model">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you can describe the model in order, explain where returns come from, and connect the mechanics to what makes a company a good LBO candidate.</p>
+<h2>Answer framework</h2><ol class=steps><li>Purchase price and sources and uses: debt and sponsor equity versus purchase price and fees.</li><li>Project the company&#x27;s cash flows.</li><li>Use free cash flow to pay interest and repay debt.</li><li>Assume an exit after about 3 to 7 years at an exit multiple; subtract remaining net debt to get exit equity value.</li><li>Calculate IRR and MOIC on the sponsor&#x27;s equity.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>A private equity firm buys a company using a large amount of debt and some equity. I set the purchase price and the sources and uses: debt and sponsor equity on one side, purchase price and fees on the other. Then I project the company&#x27;s cash flows and use free cash flow to pay interest and repay debt.</p><p class=ans>I assume an exit after about 3 to 7 years at an exit multiple, subtract the remaining net debt to get exit equity value, and calculate IRR and MOIC on the sponsor&#x27;s equity.</p><p class=ans>Returns come from three places: EBITDA growth, multiple expansion and debt paydown. Leverage magnifies all three.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>What makes a good LBO candidate?</b> Stable, predictable cash flows to service debt, limited capex needs, a strong market position, room to improve, a reasonable price, assets that support borrowing, capable management and a clear exit path.</div><div class=fu><b>How do IRR and MOIC relate?</b> For a single entry and exit, IRR = MOIC^(1/years) - 1, so the same MOIC over a shorter hold means a higher IRR.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Skipping sources and uses.</li><li>Forgetting to subtract remaining net debt at exit.</li><li>Quoting IRR without MOIC, or not knowing how they relate.</li><li>Saying leverage is the only source of returns.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you can describe the model in order, explain where returns come from, and connect the mechanics to what makes a company a good LBO candidate.
-
-## Answer framework
-
-1. Purchase price and sources and uses: debt and sponsor equity versus purchase price and fees.
-2. Project the company's cash flows.
-3. Use free cash flow to pay interest and repay debt.
-4. Assume an exit after about 3 to 7 years at an exit multiple; subtract remaining net debt to get exit equity value.
-5. Calculate IRR and MOIC on the sponsor's equity.
-
-## Sample answer
-
-> A private equity firm buys a company using a large amount of debt and some equity. I set the purchase price and the sources and uses: debt and sponsor equity on one side, purchase price and fees on the other. Then I project the company's cash flows and use free cash flow to pay interest and repay debt.
->
-> I assume an exit after about 3 to 7 years at an exit multiple, subtract the remaining net debt to get exit equity value, and calculate IRR and MOIC on the sponsor's equity.
->
-> Returns come from three places: EBITDA growth, multiple expansion and debt paydown. Leverage magnifies all three.
-
-## Likely follow-ups
-
-**What makes a good LBO candidate?** Stable, predictable cash flows to service debt, limited capex needs, a strong market position, room to improve, a reasonable price, assets that support borrowing, capable management and a clear exit path.
-
-**How do IRR and MOIC relate?** For a single entry and exit, IRR = MOIC^(1/years) - 1, so the same MOIC over a shorter hold means a higher IRR.
-
-## Common mistakes
-
-- Skipping sources and uses.
-- Forgetting to subtract remaining net debt at exit.
-- Quoting IRR without MOIC, or not knowing how they relate.
-- Saying leverage is the only source of returns.
-
-## Related questions
-
-- [How do you do a paper LBO?](../how-do-you-do-a-paper-lbo/)
-- [Walk me through a merger model](../walk-me-through-a-merger-model/)
-- [Walk me through a DCF](../walk-me-through-a-dcf/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #71, #72, #73, #75 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../how-do-you-do-a-paper-lbo/">How do you do a paper LBO?</a></li><li><a href="../walk-me-through-a-merger-model/">Walk me through a merger model</a></li><li><a href="../walk-me-through-a-dcf/">Walk me through a DCF</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #71, #72, #73, #75 in the <a href="../../">full question bank</a>.</p>
+</div></main>

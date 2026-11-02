@@ -9,3 +9,8 @@ qpage_cta:
   headline: Need the frameworks and full walkthroughs?
   text: The 0 to 1 Investment Banking Interview Playbook covers fit and behavioral answers, modeling tests and a prep plan.
   button: Get the playbook
+  price: "$19.99"  # list price on the Gumroad product page, Nov 1 2026
+  product_name: "The 0&rarr;1 Investment Banking Interview Playbook"
+  promo_text: "40% off with code EARLYBF until Nov 3, 11:59 PM PT"  # shown only while the url contains EARLYBF
+  offer_expires: "2026-11-04T07:59:00Z"  # EARLYBF expiry from the Gumroad product page; promo lines also hide client-side after it
+  site_name: "Investment Banking Interview Questions"

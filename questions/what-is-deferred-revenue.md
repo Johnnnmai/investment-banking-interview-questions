@@ -4,55 +4,20 @@ title: "What is deferred revenue and is it a source or use of cash?"
 description: "Deferred revenue for IB interviews: cash collected before delivery, why it is a liability, its three statement impact, and why an increase is a source of cash."
 permalink: "/questions/what-is-deferred-revenue/"
 slug: "what-is-deferred-revenue"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is deferred revenue and is it a source or use of cash?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Deferred revenue, also called unearned revenue, is cash a company has collected for goods or services it has not delivered yet. A software company that bills a customer $120 upfront for a one-year subscription has received the cash but has not earned the revenue, so it records a $120 liability. It is a liability because the company owes either the service or a refund. When the cash arrives, cash goes up by $120 and deferred revenue goes up by $120, with no revenue on the income statement. Each month, $10 is recognized as revenue and deferred revenue falls by $10. On the cash flow statement, the recognized revenue is in net income, but the decrease in deferred revenue is subtracted, because that revenue brought in no new cash. So an increase in deferred revenue is a source of cash: the company collected cash before recognizing the revenue, and the cash flow statement adds the increase back in operating activities. That is why fast-growing subscription businesses can generate operating cash flow well above net income. In an acquisition model, deferred revenue matters because the buyer takes on the obligation to deliver.\"}}, {\"@type\": \"Question\", \"name\": \"What happens to cash flow if a subscription business switches from annual to monthly billing?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Deferred revenue shrinks, so operating cash flow falls in the transition even if revenue is unchanged.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>What is deferred revenue and is it a source or use of cash?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="what-is-deferred-revenue" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-is-deferred-revenue" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-is-deferred-revenue">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you can explain deferred revenue as an obligation, move it correctly through working capital, and know which businesses depend on it.</p>
+<h2>Answer framework</h2><ol class=steps><li>Define it: cash received from customers for products or services not yet delivered.</li><li>It is a liability because the company owes the customer delivery or a refund.</li><li>When cash is collected: cash up, deferred revenue up; no revenue yet.</li><li>When the service is delivered: revenue up, deferred revenue down; no cash movement.</li><li>An increase in deferred revenue is a source of cash in operating cash flow, common for subscription software.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Deferred revenue, also called unearned revenue, is cash a company has collected for goods or services it has not delivered yet. A software company that bills a customer $120 upfront for a one-year subscription has received the cash but has not earned the revenue, so it records a $120 liability. It is a liability because the company owes either the service or a refund.</p><p class=ans>When the cash arrives, cash goes up by $120 and deferred revenue goes up by $120, with no revenue on the income statement. Each month, $10 is recognized as revenue and deferred revenue falls by $10. On the cash flow statement, the recognized revenue is in net income, but the decrease in deferred revenue is subtracted, because that revenue brought in no new cash.</p><p class=ans>So an increase in deferred revenue is a source of cash: the company collected cash before recognizing the revenue, and the cash flow statement adds the increase back in operating activities. That is why fast-growing subscription businesses can generate operating cash flow well above net income. In an acquisition model, deferred revenue matters because the buyer takes on the obligation to deliver.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>What happens to cash flow if a subscription business switches from annual to monthly billing?</b> Deferred revenue shrinks, so operating cash flow falls in the transition even if revenue is unchanged.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Calling deferred revenue an asset.</li><li>Recording revenue when the cash is collected.</li><li>Saying an increase in deferred revenue is a use of cash.</li><li>Confusing deferred revenue with accounts receivable.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you can explain deferred revenue as an obligation, move it correctly through working capital, and know which businesses depend on it.
-
-## Answer framework
-
-1. Define it: cash received from customers for products or services not yet delivered.
-2. It is a liability because the company owes the customer delivery or a refund.
-3. When cash is collected: cash up, deferred revenue up; no revenue yet.
-4. When the service is delivered: revenue up, deferred revenue down; no cash movement.
-5. An increase in deferred revenue is a source of cash in operating cash flow, common for subscription software.
-
-## Sample answer
-
-> Deferred revenue, also called unearned revenue, is cash a company has collected for goods or services it has not delivered yet. A software company that bills a customer $120 upfront for a one-year subscription has received the cash but has not earned the revenue, so it records a $120 liability. It is a liability because the company owes either the service or a refund.
->
-> When the cash arrives, cash goes up by $120 and deferred revenue goes up by $120, with no revenue on the income statement. Each month, $10 is recognized as revenue and deferred revenue falls by $10. On the cash flow statement, the recognized revenue is in net income, but the decrease in deferred revenue is subtracted, because that revenue brought in no new cash.
->
-> So an increase in deferred revenue is a source of cash: the company collected cash before recognizing the revenue, and the cash flow statement adds the increase back in operating activities. That is why fast-growing subscription businesses can generate operating cash flow well above net income. In an acquisition model, deferred revenue matters because the buyer takes on the obligation to deliver.
-
-## Likely follow-ups
-
-**What happens to cash flow if a subscription business switches from annual to monthly billing?** Deferred revenue shrinks, so operating cash flow falls in the transition even if revenue is unchanged.
-
-## Common mistakes
-
-- Calling deferred revenue an asset.
-- Recording revenue when the cash is collected.
-- Saying an increase in deferred revenue is a use of cash.
-- Confusing deferred revenue with accounts receivable.
-
-## Related questions
-
-- [What is the difference between cash and accrual accounting?](../cash-vs-accrual-accounting/)
-- [What is working capital and how does an increase affect cash flow?](../what-is-working-capital/)
-- [Walk me through the three financial statements](../walk-me-through-the-three-financial-statements/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #11, #12 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../cash-vs-accrual-accounting/">What is the difference between cash and accrual accounting?</a></li><li><a href="../what-is-working-capital/">What is working capital and how does an increase affect cash flow?</a></li><li><a href="../walk-me-through-the-three-financial-statements/">Walk me through the three financial statements</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #11, #12 in the <a href="../../">full question bank</a>.</p>
+</div></main>

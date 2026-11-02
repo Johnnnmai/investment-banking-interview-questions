@@ -4,55 +4,20 @@ title: "Walk me through how you would build a comparable companies analysis"
 description: "How to build a comparable companies analysis for IB interviews: picking peers, spreading financials, calendarizing, choosing multiples and applying a range."
 permalink: "/questions/how-to-build-a-comparable-companies-analysis/"
 slug: "how-to-build-a-comparable-companies-analysis"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Walk me through how you would build a comparable companies analysis\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"First I pick the peer set. The most important criterion is a similar business: same industry, products and customers. Then I narrow by size, growth, margins and geography, aiming for roughly five to fifteen companies. If the list is thin, I widen it and note which peers are the closest. Next I spread the financials. I pull historical figures from annual and quarterly filings and projections from consensus estimates, along with current share prices. For each company I calculate diluted equity value using the treasury stock method, then enterprise value by adding debt, preferred stock and noncontrolling interest and subtracting cash. Then I clean the numbers so they are comparable. I strip out one-time items such as restructuring charges or asset sale gains, calendarize everyone to the same period if fiscal years differ, and adjust for accounting differences such as lease treatment under IFRS. Only then do I calculate multiples, usually EV/Revenue, EV/EBITDA and P/E for the last twelve months and forward years. I look at the 25th percentile, median and 75th percentile, pick a range based on where the target fits on growth and margins, and apply it to the target's metrics to get an implied value range.\"}}, {\"@type\": \"Question\", \"name\": \"Why look at a range instead of the median alone?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The target may deserve a premium or discount for growth, margins or risk, so a range shows judgment and uncertainty.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>Walk me through how you would build a comparable companies analysis</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="how-to-build-a-comparable-companies-analysis" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=how-to-build-a-comparable-companies-analysis" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=how-to-build-a-comparable-companies-analysis">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you know the full comps process end to end, including the cleanup steps that make multiples comparable.</p>
+<h2>Answer framework</h2><ol class=steps><li>Select peers: similar industry and business model, then size, growth, margins and geography.</li><li>Gather data: filings for historicals, consensus estimates for projections, current share prices.</li><li>Calculate equity value with diluted shares, then enterprise value with the EV bridge.</li><li>Normalize: remove non-recurring items, calendarize to the same fiscal period and align accounting.</li><li>Compute multiples (EV/Revenue, EV/EBITDA, P/E), look at the quartiles and median, and apply a justified range to the target&#x27;s metrics.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>First I pick the peer set. The most important criterion is a similar business: same industry, products and customers. Then I narrow by size, growth, margins and geography, aiming for roughly five to fifteen companies. If the list is thin, I widen it and note which peers are the closest.</p><p class=ans>Next I spread the financials. I pull historical figures from annual and quarterly filings and projections from consensus estimates, along with current share prices. For each company I calculate diluted equity value using the treasury stock method, then enterprise value by adding debt, preferred stock and noncontrolling interest and subtracting cash.</p><p class=ans>Then I clean the numbers so they are comparable. I strip out one-time items such as restructuring charges or asset sale gains, calendarize everyone to the same period if fiscal years differ, and adjust for accounting differences such as lease treatment under IFRS. Only then do I calculate multiples, usually EV/Revenue, EV/EBITDA and P/E for the last twelve months and forward years. I look at the 25th percentile, median and 75th percentile, pick a range based on where the target fits on growth and margins, and apply it to the target&#x27;s metrics to get an implied value range.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Why look at a range instead of the median alone?</b> The target may deserve a premium or discount for growth, margins or risk, so a range shows judgment and uncertainty.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Choosing peers by size alone rather than business similarity.</li><li>Using basic shares or skipping the EV bridge.</li><li>Mixing reported and adjusted EBITDA across peers.</li><li>Comparing companies with different fiscal year-ends without calendarizing.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you know the full comps process end to end, including the cleanup steps that make multiples comparable.
-
-## Answer framework
-
-1. Select peers: similar industry and business model, then size, growth, margins and geography.
-2. Gather data: filings for historicals, consensus estimates for projections, current share prices.
-3. Calculate equity value with diluted shares, then enterprise value with the EV bridge.
-4. Normalize: remove non-recurring items, calendarize to the same fiscal period and align accounting.
-5. Compute multiples (EV/Revenue, EV/EBITDA, P/E), look at the quartiles and median, and apply a justified range to the target's metrics.
-
-## Sample answer
-
-> First I pick the peer set. The most important criterion is a similar business: same industry, products and customers. Then I narrow by size, growth, margins and geography, aiming for roughly five to fifteen companies. If the list is thin, I widen it and note which peers are the closest.
->
-> Next I spread the financials. I pull historical figures from annual and quarterly filings and projections from consensus estimates, along with current share prices. For each company I calculate diluted equity value using the treasury stock method, then enterprise value by adding debt, preferred stock and noncontrolling interest and subtracting cash.
->
-> Then I clean the numbers so they are comparable. I strip out one-time items such as restructuring charges or asset sale gains, calendarize everyone to the same period if fiscal years differ, and adjust for accounting differences such as lease treatment under IFRS. Only then do I calculate multiples, usually EV/Revenue, EV/EBITDA and P/E for the last twelve months and forward years. I look at the 25th percentile, median and 75th percentile, pick a range based on where the target fits on growth and margins, and apply it to the target's metrics to get an implied value range.
-
-## Likely follow-ups
-
-**Why look at a range instead of the median alone?** The target may deserve a premium or discount for growth, margins or risk, so a range shows judgment and uncertainty.
-
-## Common mistakes
-
-- Choosing peers by size alone rather than business similarity.
-- Using basic shares or skipping the EV bridge.
-- Mixing reported and adjusted EBITDA across peers.
-- Comparing companies with different fiscal year-ends without calendarizing.
-
-## Related questions
-
-- [Why do precedent transactions usually give higher valuations than comps?](../why-precedent-transactions-are-higher-than-comps/)
-- [Why use NTM multiples instead of LTM multiples?](../ntm-vs-ltm-multiples/)
-- [Walk me through the enterprise value bridge](../walk-me-through-the-enterprise-value-bridge/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #33, #34, #46 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../why-precedent-transactions-are-higher-than-comps/">Why do precedent transactions usually give higher valuations than comps?</a></li><li><a href="../ntm-vs-ltm-multiples/">Why use NTM multiples instead of LTM multiples?</a></li><li><a href="../walk-me-through-the-enterprise-value-bridge/">Walk me through the enterprise value bridge</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #33, #34, #46 in the <a href="../../">full question bank</a>.</p>
+</div></main>

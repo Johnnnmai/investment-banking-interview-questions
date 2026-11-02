@@ -1,0 +1,2 @@
+{%- comment -%} Buy link built from the single constant site.qpage_cta.url. Params: campaign, content, medium (default qpage), source (default seo). {%- endcomment -%}
+{{- site.qpage_cta.url -}}{%- if site.qpage_cta.url contains '?' -%}&amp;{%- else -%}?{%- endif -%}utm_source={{ include.source | default: 'seo' }}&amp;utm_medium={{ include.medium | default: 'qpage' }}&amp;utm_campaign={{ include.campaign }}&amp;utm_content={{ include.content }}

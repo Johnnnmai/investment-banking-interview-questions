@@ -4,55 +4,20 @@ title: "What are synergies in M&A?"
 description: "Synergies in M&A for IB interviews: cost vs revenue synergies, why cost synergies are more credible, integration costs, phasing and valuing them in a deal."
 permalink: "/questions/what-are-synergies/"
 slug: "what-are-synergies"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What are synergies in M&A?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Synergies are the additional value created when two companies combine, compared with operating separately. They are a major reason strategic buyers can pay more than financial buyers. There are two main kinds. Cost synergies come from eliminating overlap: combining head offices, closing duplicate facilities, merging IT systems and negotiating better terms with suppliers thanks to greater scale. Revenue synergies come from selling more: cross-selling each company's products to the other's customers, using a larger sales network or gaining pricing power. Cost synergies are considered more reliable because management controls them, while revenue synergies depend on customers and competitors and often take longer, so investors and buyers usually discount them heavily. In a model, I phase synergies in over two or three years rather than assuming they arrive on day one, and subtract the one-time integration costs needed to achieve them, such as severance and system migrations. The present value of net synergies tells the buyer the most extra premium it could pay before the deal destroys value. In practice the buyer wants to keep a good share of that value, so how much of the synergies get paid away is a central negotiating point.\"}}, {\"@type\": \"Question\", \"name\": \"What are dis-synergies?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Value lost from combining, such as customer losses, employee departures or contracts terminated after a change of control.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>What are synergies in M&amp;A?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="what-are-synergies" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-are-synergies" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-are-synergies">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you can distinguish synergy types, judge their credibility and explain how they enter deal valuation and negotiation.</p>
+<h2>Answer framework</h2><ol class=steps><li>Definition: the extra value from combining two companies beyond their standalone values.</li><li>Cost synergies: overlapping headcount, facilities, systems and better purchasing terms.</li><li>Revenue synergies: cross-selling, broader distribution, pricing power; less certain and slower.</li><li>Model them realistically: phase in over several years and subtract one-time integration costs.</li><li>Valuation: the present value of net synergies sets an upper bound on how much premium a buyer can rationally pay.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Synergies are the additional value created when two companies combine, compared with operating separately. They are a major reason strategic buyers can pay more than financial buyers.</p><p class=ans>There are two main kinds. Cost synergies come from eliminating overlap: combining head offices, closing duplicate facilities, merging IT systems and negotiating better terms with suppliers thanks to greater scale. Revenue synergies come from selling more: cross-selling each company&#x27;s products to the other&#x27;s customers, using a larger sales network or gaining pricing power. Cost synergies are considered more reliable because management controls them, while revenue synergies depend on customers and competitors and often take longer, so investors and buyers usually discount them heavily.</p><p class=ans>In a model, I phase synergies in over two or three years rather than assuming they arrive on day one, and subtract the one-time integration costs needed to achieve them, such as severance and system migrations. The present value of net synergies tells the buyer the most extra premium it could pay before the deal destroys value. In practice the buyer wants to keep a good share of that value, so how much of the synergies get paid away is a central negotiating point.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>What are dis-synergies?</b> Value lost from combining, such as customer losses, employee departures or contracts terminated after a change of control.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Treating revenue synergies as being as certain as cost synergies.</li><li>Assuming synergies arrive immediately.</li><li>Forgetting one-time integration costs.</li><li>Paying away all expected synergies in the premium.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you can distinguish synergy types, judge their credibility and explain how they enter deal valuation and negotiation.
-
-## Answer framework
-
-1. Definition: the extra value from combining two companies beyond their standalone values.
-2. Cost synergies: overlapping headcount, facilities, systems and better purchasing terms.
-3. Revenue synergies: cross-selling, broader distribution, pricing power; less certain and slower.
-4. Model them realistically: phase in over several years and subtract one-time integration costs.
-5. Valuation: the present value of net synergies sets an upper bound on how much premium a buyer can rationally pay.
-
-## Sample answer
-
-> Synergies are the additional value created when two companies combine, compared with operating separately. They are a major reason strategic buyers can pay more than financial buyers.
->
-> There are two main kinds. Cost synergies come from eliminating overlap: combining head offices, closing duplicate facilities, merging IT systems and negotiating better terms with suppliers thanks to greater scale. Revenue synergies come from selling more: cross-selling each company's products to the other's customers, using a larger sales network or gaining pricing power. Cost synergies are considered more reliable because management controls them, while revenue synergies depend on customers and competitors and often take longer, so investors and buyers usually discount them heavily.
->
-> In a model, I phase synergies in over two or three years rather than assuming they arrive on day one, and subtract the one-time integration costs needed to achieve them, such as severance and system migrations. The present value of net synergies tells the buyer the most extra premium it could pay before the deal destroys value. In practice the buyer wants to keep a good share of that value, so how much of the synergies get paid away is a central negotiating point.
-
-## Likely follow-ups
-
-**What are dis-synergies?** Value lost from combining, such as customer losses, employee departures or contracts terminated after a change of control.
-
-## Common mistakes
-
-- Treating revenue synergies as being as certain as cost synergies.
-- Assuming synergies arrive immediately.
-- Forgetting one-time integration costs.
-- Paying away all expected synergies in the premium.
-
-## Related questions
-
-- [Why do precedent transactions usually give higher valuations than comps?](../why-precedent-transactions-are-higher-than-comps/)
-- [What is accretion/dilution in M&A?](../what-is-accretion-dilution/)
-- [Walk me through a merger model](../walk-me-through-a-merger-model/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #55, #56 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../why-precedent-transactions-are-higher-than-comps/">Why do precedent transactions usually give higher valuations than comps?</a></li><li><a href="../what-is-accretion-dilution/">What is accretion/dilution in M&amp;A?</a></li><li><a href="../walk-me-through-a-merger-model/">Walk me through a merger model</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #55, #56 in the <a href="../../">full question bank</a>.</p>
+</div></main>

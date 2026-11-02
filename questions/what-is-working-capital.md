@@ -4,55 +4,20 @@ title: "What is working capital and how does an increase affect cash flow?"
 description: "Working capital for IB interviews: current assets minus current liabilities, operating NWC in models, why an increase uses cash, and when negative NWC is good."
 permalink: "/questions/what-is-working-capital/"
 slug: "what-is-working-capital"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is working capital and how does an increase affect cash flow?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Working capital is current assets minus current liabilities. In valuation and modeling I use operating working capital, which excludes cash and debt because those are financing items. So it is mostly accounts receivable, inventory and prepaid expenses, minus accounts payable, accrued expenses and deferred revenue. An increase in net working capital is a use of cash. If receivables grow by $10M, the company booked revenue but has not collected that cash, so operating cash flow is $10M lower than net income would suggest. If inventory grows, cash went into stock sitting on shelves. Going the other way, if accounts payable grow, the company is holding onto cash longer before paying suppliers, which is a source of cash. Working capital also tells you about the business model. A growing manufacturer with long customer payment terms needs more working capital every year, which eats into free cash flow. A retailer that collects cash at the register but pays suppliers in 60 days, or a software company billing annually upfront, can run negative working capital, so growth actually releases cash. In a DCF, I subtract the increase in NWC each year.\"}}, {\"@type\": \"Question\", \"name\": \"Why exclude cash from operating working capital?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Cash is treated separately in the EV bridge and as a financing item, so including it would double count.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>What is working capital and how does an increase affect cash flow?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="what-is-working-capital" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-is-working-capital" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-is-working-capital">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you know the definition used in models, can get the direction of the cash flow effect right, and understand what working capital says about a business.</p>
+<h2>Answer framework</h2><ol class=steps><li>Basic definition: current assets minus current liabilities.</li><li>In models: operating working capital excludes cash and debt; mainly receivables, inventory and prepaids minus payables, accrued expenses and deferred revenue.</li><li>An increase in net working capital is a use of cash and reduces operating cash flow.</li><li>Examples: higher receivables or inventory tie up cash; higher payables or deferred revenue free it up.</li><li>Negative working capital can be healthy, as in retailers or subscription businesses paid upfront.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Working capital is current assets minus current liabilities. In valuation and modeling I use operating working capital, which excludes cash and debt because those are financing items. So it is mostly accounts receivable, inventory and prepaid expenses, minus accounts payable, accrued expenses and deferred revenue.</p><p class=ans>An increase in net working capital is a use of cash. If receivables grow by $10M, the company booked revenue but has not collected that cash, so operating cash flow is $10M lower than net income would suggest. If inventory grows, cash went into stock sitting on shelves. Going the other way, if accounts payable grow, the company is holding onto cash longer before paying suppliers, which is a source of cash.</p><p class=ans>Working capital also tells you about the business model. A growing manufacturer with long customer payment terms needs more working capital every year, which eats into free cash flow. A retailer that collects cash at the register but pays suppliers in 60 days, or a software company billing annually upfront, can run negative working capital, so growth actually releases cash. In a DCF, I subtract the increase in NWC each year.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Why exclude cash from operating working capital?</b> Cash is treated separately in the EV bridge and as a financing item, so including it would double count.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Saying an increase in working capital adds to cash flow.</li><li>Including cash and short-term debt in operating working capital.</li><li>Assuming negative working capital always signals distress.</li><li>Forgetting deferred revenue as a working capital liability.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you know the definition used in models, can get the direction of the cash flow effect right, and understand what working capital says about a business.
-
-## Answer framework
-
-1. Basic definition: current assets minus current liabilities.
-2. In models: operating working capital excludes cash and debt; mainly receivables, inventory and prepaids minus payables, accrued expenses and deferred revenue.
-3. An increase in net working capital is a use of cash and reduces operating cash flow.
-4. Examples: higher receivables or inventory tie up cash; higher payables or deferred revenue free it up.
-5. Negative working capital can be healthy, as in retailers or subscription businesses paid upfront.
-
-## Sample answer
-
-> Working capital is current assets minus current liabilities. In valuation and modeling I use operating working capital, which excludes cash and debt because those are financing items. So it is mostly accounts receivable, inventory and prepaid expenses, minus accounts payable, accrued expenses and deferred revenue.
->
-> An increase in net working capital is a use of cash. If receivables grow by $10M, the company booked revenue but has not collected that cash, so operating cash flow is $10M lower than net income would suggest. If inventory grows, cash went into stock sitting on shelves. Going the other way, if accounts payable grow, the company is holding onto cash longer before paying suppliers, which is a source of cash.
->
-> Working capital also tells you about the business model. A growing manufacturer with long customer payment terms needs more working capital every year, which eats into free cash flow. A retailer that collects cash at the register but pays suppliers in 60 days, or a software company billing annually upfront, can run negative working capital, so growth actually releases cash. In a DCF, I subtract the increase in NWC each year.
-
-## Likely follow-ups
-
-**Why exclude cash from operating working capital?** Cash is treated separately in the EV bridge and as a financing item, so including it would double count.
-
-## Common mistakes
-
-- Saying an increase in working capital adds to cash flow.
-- Including cash and short-term debt in operating working capital.
-- Assuming negative working capital always signals distress.
-- Forgetting deferred revenue as a working capital liability.
-
-## Related questions
-
-- [What is the difference between unlevered and levered free cash flow?](../unlevered-vs-levered-free-cash-flow/)
-- [What is deferred revenue and is it a source or use of cash?](../what-is-deferred-revenue/)
-- [Walk me through the three financial statements](../walk-me-through-the-three-financial-statements/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on question #20 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../unlevered-vs-levered-free-cash-flow/">What is the difference between unlevered and levered free cash flow?</a></li><li><a href="../what-is-deferred-revenue/">What is deferred revenue and is it a source or use of cash?</a></li><li><a href="../walk-me-through-the-three-financial-statements/">Walk me through the three financial statements</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on question #20 in the <a href="../../">full question bank</a>.</p>
+</div></main>

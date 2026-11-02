@@ -4,55 +4,20 @@ title: "What is the difference between capitalizing and expensing a cost?"
 description: "Capitalizing vs expensing for IB interviews: the useful life test, effects on EBITDA, net income and cash flow sections, with a $10M machine worked example."
 permalink: "/questions/capitalizing-vs-expensing/"
 slug: "capitalizing-vs-expensing"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is the difference between capitalizing and expensing a cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The test is how long the benefit lasts. A cost that is used up in the period, such as salaries or rent, is expensed. A cost that will benefit several years, such as a machine or a building, is capitalized: it goes on the balance sheet as an asset and is depreciated over its useful life. Take a $10M machine with a five-year life and a 25% tax rate. If it is capitalized, the first year shows $2M of depreciation, so EBITDA is unchanged and net income falls by $1.5M. On the cash flow statement, net income is down $1.5M, depreciation adds back $2M, so operating cash flow is up $0.5M, and capex in investing is $10M, giving net cash down $9.5M. If it were expensed, EBITDA would fall by $10M and net income by $7.5M, all in operating cash flow, so cash would fall by $7.5M, since the full deduction saves more tax in year one. That is why analysts watch capitalization choices. Aggressively capitalizing costs, such as software development, makes EBITDA and operating cash flow look stronger, so comparing companies may require adjusting EBITDA or looking at free cash flow after capex.\"}}, {\"@type\": \"Question\", \"name\": \"Which choice gives higher EBITDA?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Capitalizing, because depreciation and amortization sit below EBITDA while expensed costs reduce it directly.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>What is the difference between capitalizing and expensing a cost?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="capitalizing-vs-expensing" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=capitalizing-vs-expensing" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=capitalizing-vs-expensing">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you know when a cost is capitalized and how the choice moves EBITDA, net income and the cash flow statement, even though the cash paid is the same.</p>
+<h2>Answer framework</h2><ol class=steps><li>Expense: costs that benefit only the current period hit the income statement immediately.</li><li>Capitalize: costs that benefit more than one year become an asset, such as PP&amp;E or capitalized software, then are depreciated or amortized.</li><li>Income statement: capitalizing raises current EBITDA and net income, then spreads the cost over time.</li><li>Cash flow: capitalized costs appear as capex in investing; expensed costs reduce cash from operations.</li><li>Total cash spent is the same; timing of expense and tax deductions differs.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>The test is how long the benefit lasts. A cost that is used up in the period, such as salaries or rent, is expensed. A cost that will benefit several years, such as a machine or a building, is capitalized: it goes on the balance sheet as an asset and is depreciated over its useful life.</p><p class=ans>Take a $10M machine with a five-year life and a 25% tax rate. If it is capitalized, the first year shows $2M of depreciation, so EBITDA is unchanged and net income falls by $1.5M. On the cash flow statement, net income is down $1.5M, depreciation adds back $2M, so operating cash flow is up $0.5M, and capex in investing is $10M, giving net cash down $9.5M. If it were expensed, EBITDA would fall by $10M and net income by $7.5M, all in operating cash flow, so cash would fall by $7.5M, since the full deduction saves more tax in year one.</p><p class=ans>That is why analysts watch capitalization choices. Aggressively capitalizing costs, such as software development, makes EBITDA and operating cash flow look stronger, so comparing companies may require adjusting EBITDA or looking at free cash flow after capex.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Which choice gives higher EBITDA?</b> Capitalizing, because depreciation and amortization sit below EBITDA while expensed costs reduce it directly.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Saying capitalizing saves cash; the cash paid is the same.</li><li>Putting capex in operating cash flow.</li><li>Forgetting the tax timing difference.</li><li>Ignoring capitalization differences when comparing EBITDA across companies.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you know when a cost is capitalized and how the choice moves EBITDA, net income and the cash flow statement, even though the cash paid is the same.
-
-## Answer framework
-
-1. Expense: costs that benefit only the current period hit the income statement immediately.
-2. Capitalize: costs that benefit more than one year become an asset, such as PP&E or capitalized software, then are depreciated or amortized.
-3. Income statement: capitalizing raises current EBITDA and net income, then spreads the cost over time.
-4. Cash flow: capitalized costs appear as capex in investing; expensed costs reduce cash from operations.
-5. Total cash spent is the same; timing of expense and tax deductions differs.
-
-## Sample answer
-
-> The test is how long the benefit lasts. A cost that is used up in the period, such as salaries or rent, is expensed. A cost that will benefit several years, such as a machine or a building, is capitalized: it goes on the balance sheet as an asset and is depreciated over its useful life.
->
-> Take a $10M machine with a five-year life and a 25% tax rate. If it is capitalized, the first year shows $2M of depreciation, so EBITDA is unchanged and net income falls by $1.5M. On the cash flow statement, net income is down $1.5M, depreciation adds back $2M, so operating cash flow is up $0.5M, and capex in investing is $10M, giving net cash down $9.5M. If it were expensed, EBITDA would fall by $10M and net income by $7.5M, all in operating cash flow, so cash would fall by $7.5M, since the full deduction saves more tax in year one.
->
-> That is why analysts watch capitalization choices. Aggressively capitalizing costs, such as software development, makes EBITDA and operating cash flow look stronger, so comparing companies may require adjusting EBITDA or looking at free cash flow after capex.
-
-## Likely follow-ups
-
-**Which choice gives higher EBITDA?** Capitalizing, because depreciation and amortization sit below EBITDA while expensed costs reduce it directly.
-
-## Common mistakes
-
-- Saying capitalizing saves cash; the cash paid is the same.
-- Putting capex in operating cash flow.
-- Forgetting the tax timing difference.
-- Ignoring capitalization differences when comparing EBITDA across companies.
-
-## Related questions
-
-- [If depreciation goes up by $10, walk me through the three statements](../if-depreciation-goes-up-by-10-walk-me-through-the-three-statements/)
-- [What is the difference between unlevered and levered free cash flow?](../unlevered-vs-levered-free-cash-flow/)
-- [Walk me through the three financial statements](../walk-me-through-the-three-financial-statements/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on question #21 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../if-depreciation-goes-up-by-10-walk-me-through-the-three-statements/">If depreciation goes up by $10, walk me through the three statements</a></li><li><a href="../unlevered-vs-levered-free-cash-flow/">What is the difference between unlevered and levered free cash flow?</a></li><li><a href="../walk-me-through-the-three-financial-statements/">Walk me through the three financial statements</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on question #21 in the <a href="../../">full question bank</a>.</p>
+</div></main>

@@ -4,55 +4,20 @@ title: "How do you calculate goodwill in an acquisition (purchase price allocati
 description: "Goodwill calculation in a purchase price allocation: equity purchase price, book value, asset write-ups, new deferred tax liability, with a worked $1,000M example."
 permalink: "/questions/how-to-calculate-goodwill-in-an-acquisition/"
 slug: "how-to-calculate-goodwill-in-an-acquisition"
-tagline: "Investment banking interview question (Hard): how to answer it"
+level: "Hard"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How do you calculate goodwill in an acquisition (purchase price allocation)?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Purchase price allocation assigns the price paid to the target's assets and liabilities at fair value, and whatever is left over becomes goodwill. I start with the equity purchase price, then subtract the fair value of identifiable net assets. To get that fair value, I begin with the target's book equity and remove any goodwill already on its balance sheet, since that is replaced by the new calculation. Then I add write-ups: PP&E or inventory marked to fair value, and intangible assets that were not on the books, such as customer relationships, technology or brand names. In a stock deal those book write-ups do not change the tax basis, so they create a deferred tax liability equal to the write-up times the tax rate, which reduces net assets. For example, suppose the buyer pays $1,000M for a target with $600M of book equity and no existing goodwill. Asset write-ups total $200M, so at a 25% tax rate the new deferred tax liability is $50M. Identifiable net assets at fair value are $600M plus $200M minus $50M, or $750M, so goodwill is $1,000M minus $750M, or $250M. In an asset deal there would be no new deferred tax liability, because the tax basis steps up too.\"}}, {\"@type\": \"Question\", \"name\": \"Why do write-ups matter for the merger model?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"They create extra depreciation and amortization, which lowers pro forma earnings and affects accretion or dilution.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl S">Hard</span><h1>How do you calculate goodwill in an acquisition (purchase price allocation)?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="how-to-calculate-goodwill-in-an-acquisition" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=how-to-calculate-goodwill-in-an-acquisition" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=how-to-calculate-goodwill-in-an-acquisition">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you can run a purchase price allocation step by step, including write-ups, existing goodwill and the deferred tax liability.</p>
+<h2>Answer framework</h2><ol class=steps><li>Start with the equity purchase price paid for the target.</li><li>Subtract the target&#x27;s book value of equity, after removing any existing goodwill.</li><li>Subtract write-ups of assets to fair value, including newly identified intangibles such as customer relationships.</li><li>Add back the new deferred tax liability on those write-ups in a stock deal (write-up x tax rate).</li><li>The remainder is new goodwill; it is tested for impairment, not amortized, for public companies under US GAAP.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Purchase price allocation assigns the price paid to the target&#x27;s assets and liabilities at fair value, and whatever is left over becomes goodwill. I start with the equity purchase price, then subtract the fair value of identifiable net assets.</p><p class=ans>To get that fair value, I begin with the target&#x27;s book equity and remove any goodwill already on its balance sheet, since that is replaced by the new calculation. Then I add write-ups: PP&amp;E or inventory marked to fair value, and intangible assets that were not on the books, such as customer relationships, technology or brand names. In a stock deal those book write-ups do not change the tax basis, so they create a deferred tax liability equal to the write-up times the tax rate, which reduces net assets.</p><p class=ans>For example, suppose the buyer pays $1,000M for a target with $600M of book equity and no existing goodwill. Asset write-ups total $200M, so at a 25% tax rate the new deferred tax liability is $50M. Identifiable net assets at fair value are $600M plus $200M minus $50M, or $750M, so goodwill is $1,000M minus $750M, or $250M. In an asset deal there would be no new deferred tax liability, because the tax basis steps up too.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Why do write-ups matter for the merger model?</b> They create extra depreciation and amortization, which lowers pro forma earnings and affects accretion or dilution.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Forgetting to remove the target&#x27;s existing goodwill.</li><li>Leaving out the deferred tax liability on write-ups in a stock deal.</li><li>Using book value instead of fair value for net assets.</li><li>Forgetting identified intangibles, which inflates goodwill.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you can run a purchase price allocation step by step, including write-ups, existing goodwill and the deferred tax liability.
-
-## Answer framework
-
-1. Start with the equity purchase price paid for the target.
-2. Subtract the target's book value of equity, after removing any existing goodwill.
-3. Subtract write-ups of assets to fair value, including newly identified intangibles such as customer relationships.
-4. Add back the new deferred tax liability on those write-ups in a stock deal (write-up x tax rate).
-5. The remainder is new goodwill; it is tested for impairment, not amortized, for public companies under US GAAP.
-
-## Sample answer
-
-> Purchase price allocation assigns the price paid to the target's assets and liabilities at fair value, and whatever is left over becomes goodwill. I start with the equity purchase price, then subtract the fair value of identifiable net assets.
->
-> To get that fair value, I begin with the target's book equity and remove any goodwill already on its balance sheet, since that is replaced by the new calculation. Then I add write-ups: PP&E or inventory marked to fair value, and intangible assets that were not on the books, such as customer relationships, technology or brand names. In a stock deal those book write-ups do not change the tax basis, so they create a deferred tax liability equal to the write-up times the tax rate, which reduces net assets.
->
-> For example, suppose the buyer pays $1,000M for a target with $600M of book equity and no existing goodwill. Asset write-ups total $200M, so at a 25% tax rate the new deferred tax liability is $50M. Identifiable net assets at fair value are $600M plus $200M minus $50M, or $750M, so goodwill is $1,000M minus $750M, or $250M. In an asset deal there would be no new deferred tax liability, because the tax basis steps up too.
-
-## Likely follow-ups
-
-**Why do write-ups matter for the merger model?** They create extra depreciation and amortization, which lowers pro forma earnings and affects accretion or dilution.
-
-## Common mistakes
-
-- Forgetting to remove the target's existing goodwill.
-- Leaving out the deferred tax liability on write-ups in a stock deal.
-- Using book value instead of fair value for net assets.
-- Forgetting identified intangibles, which inflates goodwill.
-
-## Related questions
-
-- [What is goodwill and how is it created?](../what-is-goodwill/)
-- [What is the difference between an asset deal and a stock deal?](../asset-deal-vs-stock-deal/)
-- [What is a deferred tax asset vs a deferred tax liability?](../deferred-tax-asset-vs-deferred-tax-liability/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #68, #69 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../what-is-goodwill/">What is goodwill and how is it created?</a></li><li><a href="../asset-deal-vs-stock-deal/">What is the difference between an asset deal and a stock deal?</a></li><li><a href="../deferred-tax-asset-vs-deferred-tax-liability/">What is a deferred tax asset vs a deferred tax liability?</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #68, #69 in the <a href="../../">full question bank</a>.</p>
+</div></main>

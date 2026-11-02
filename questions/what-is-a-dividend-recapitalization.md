@@ -4,55 +4,20 @@ title: "What is a dividend recapitalization?"
 description: "Dividend recapitalization explained for IB and PE interviews: new debt paying a dividend to owners, effects on IRR and MOIC, the three statements and the risks."
 permalink: "/questions/what-is-a-dividend-recapitalization/"
 slug: "what-is-a-dividend-recapitalization"
-tagline: "Investment banking interview question (Medium): how to answer it"
+level: "Medium"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is a dividend recapitalization?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A dividend recap is when a company borrows new debt and pays it out as a dividend to its shareholders. It is common in private equity: a few years after the buyout, once the company has repaid some debt or grown its EBITDA, the sponsor relevers it and takes cash out without selling the business. The main motivation is returns. Getting cash back earlier raises IRR, because IRR is sensitive to timing. It does not create much value in itself, so MOIC barely changes, and the extra interest can lower the eventual multiple. It also lets the sponsor recover some of its investment, reducing its risk while keeping ownership. On the statements, issuing the debt raises cash and debt; paying the dividend lowers cash and shareholders' equity, so the net effect is more debt and lower equity, with both shown in financing cash flows. Going forward, interest expense reduces net income and cash. The risk is that the company now carries more debt with less cushion, so a downturn can lead to distress, and less cash is left for investment. Lenders will only agree when cash flow is stable and credit markets are receptive.\"}}, {\"@type\": \"Question\", \"name\": \"Does a dividend recap hit the income statement on the day it happens?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No. The dividend is a distribution of equity, not an expense; only the later interest expense flows through net income.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl M">Medium</span><h1>What is a dividend recapitalization?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="what-is-a-dividend-recapitalization" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-is-a-dividend-recapitalization" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-is-a-dividend-recapitalization">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you understand why sponsors use dividend recaps, how they affect returns and the statements, and what risks they create.</p>
+<h2>Answer framework</h2><ol class=steps><li>Definition: the company raises new debt and uses the proceeds to pay a dividend to its owners, often a private equity sponsor.</li><li>Returns: cash comes back early, which raises IRR; MOIC changes little and can even fall after interest costs.</li><li>Statements: debt up and cash up, then cash down and equity down for the dividend; later, interest expense lowers net income.</li><li>Conditions: works when the company has paid down debt or grown EBITDA and credit markets are open.</li><li>Risks: higher leverage and default risk, less cash for investment, and scrutiny from lenders and other stakeholders.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>A dividend recap is when a company borrows new debt and pays it out as a dividend to its shareholders. It is common in private equity: a few years after the buyout, once the company has repaid some debt or grown its EBITDA, the sponsor relevers it and takes cash out without selling the business.</p><p class=ans>The main motivation is returns. Getting cash back earlier raises IRR, because IRR is sensitive to timing. It does not create much value in itself, so MOIC barely changes, and the extra interest can lower the eventual multiple. It also lets the sponsor recover some of its investment, reducing its risk while keeping ownership.</p><p class=ans>On the statements, issuing the debt raises cash and debt; paying the dividend lowers cash and shareholders&#x27; equity, so the net effect is more debt and lower equity, with both shown in financing cash flows. Going forward, interest expense reduces net income and cash. The risk is that the company now carries more debt with less cushion, so a downturn can lead to distress, and less cash is left for investment. Lenders will only agree when cash flow is stable and credit markets are receptive.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Does a dividend recap hit the income statement on the day it happens?</b> No. The dividend is a distribution of equity, not an expense; only the later interest expense flows through net income.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Recording the dividend as an expense on the income statement.</li><li>Claiming it creates enterprise value.</li><li>Saying it raises MOIC significantly.</li><li>Ignoring the added default risk.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you understand why sponsors use dividend recaps, how they affect returns and the statements, and what risks they create.
-
-## Answer framework
-
-1. Definition: the company raises new debt and uses the proceeds to pay a dividend to its owners, often a private equity sponsor.
-2. Returns: cash comes back early, which raises IRR; MOIC changes little and can even fall after interest costs.
-3. Statements: debt up and cash up, then cash down and equity down for the dividend; later, interest expense lowers net income.
-4. Conditions: works when the company has paid down debt or grown EBITDA and credit markets are open.
-5. Risks: higher leverage and default risk, less cash for investment, and scrutiny from lenders and other stakeholders.
-
-## Sample answer
-
-> A dividend recap is when a company borrows new debt and pays it out as a dividend to its shareholders. It is common in private equity: a few years after the buyout, once the company has repaid some debt or grown its EBITDA, the sponsor relevers it and takes cash out without selling the business.
->
-> The main motivation is returns. Getting cash back earlier raises IRR, because IRR is sensitive to timing. It does not create much value in itself, so MOIC barely changes, and the extra interest can lower the eventual multiple. It also lets the sponsor recover some of its investment, reducing its risk while keeping ownership.
->
-> On the statements, issuing the debt raises cash and debt; paying the dividend lowers cash and shareholders' equity, so the net effect is more debt and lower equity, with both shown in financing cash flows. Going forward, interest expense reduces net income and cash. The risk is that the company now carries more debt with less cushion, so a downturn can lead to distress, and less cash is left for investment. Lenders will only agree when cash flow is stable and credit markets are receptive.
-
-## Likely follow-ups
-
-**Does a dividend recap hit the income statement on the day it happens?** No. The dividend is a distribution of equity, not an expense; only the later interest expense flows through net income.
-
-## Common mistakes
-
-- Recording the dividend as an expense on the income statement.
-- Claiming it creates enterprise value.
-- Saying it raises MOIC significantly.
-- Ignoring the added default risk.
-
-## Related questions
-
-- [What is the difference between IRR and MOIC?](../irr-vs-moic/)
-- [Walk me through an LBO model](../walk-me-through-an-lbo-model/)
-- [What are the three ways private equity firms create value?](../three-ways-pe-firms-create-value/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on question #77 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../irr-vs-moic/">What is the difference between IRR and MOIC?</a></li><li><a href="../walk-me-through-an-lbo-model/">Walk me through an LBO model</a></li><li><a href="../three-ways-pe-firms-create-value/">What are the three ways private equity firms create value?</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on question #77 in the <a href="../../">full question bank</a>.</p>
+</div></main>

@@ -1,7 +1,3 @@
 {%- comment -%} Single CTA partial for /questions/ pages. Change the offer in _config.yml (qpage_cta). {%- endcomment -%}
 {%- assign cta_campaign = include.campaign | default: page.slug -%}
-<div class="qpage-cta" style="background:#f3f6f6;border:2px solid #159957;border-radius:8px;padding:1rem 1.25rem;margin:1.5rem 0;text-align:center">
-<p style="margin:0 0 .4rem"><strong>{{ site.qpage_cta.headline }}</strong></p>
-<p style="margin:0 0 .8rem">{{ site.qpage_cta.text }}</p>
-<a href="{{ site.qpage_cta.url }}{% if site.qpage_cta.url contains '?' %}&amp;{% else %}?{% endif %}utm_source=seo&amp;utm_medium=qpage&amp;utm_campaign={{ cta_campaign }}" style="display:inline-block;background:#159957;color:#fff;font-weight:700;padding:.6rem 1.2rem;border-radius:6px;text-decoration:none">{{ site.qpage_cta.button }}</a>
-</div>
+<div class=cta><span class=label>The Playbook</span><b>{{ site.qpage_cta.headline }}</b><p>{{ site.qpage_cta.text }}</p><a class="btn btn-primary" href="{% include buy-url.html campaign=cta_campaign content='cta_box' medium=include.medium source=include.source %}">{{ site.qpage_cta.button }} <span class=dot aria-hidden=true>&rarr;</span></a>{% include promo.html %}</div>

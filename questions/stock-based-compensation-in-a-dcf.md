@@ -4,55 +4,20 @@ title: "How should you treat stock-based compensation in free cash flow and a DC
 description: "Stock-based compensation in a DCF for IB interviews: why the add-back overstates cash flow, treating SBC as a real cost, and avoiding double counting dilution."
 permalink: "/questions/stock-based-compensation-in-a-dcf/"
 slug: "stock-based-compensation-in-a-dcf"
-tagline: "Investment banking interview question (Hard): how to answer it"
+level: "Hard"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How should you treat stock-based compensation in free cash flow and a DCF?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Accounting treats stock-based compensation as an expense on the income statement, but because no cash leaves the company, it is added back on the cash flow statement. If I simply copy that add-back into a DCF, I am treating employee pay as free, which overstates free cash flow and value, especially for tech companies where SBC can be a large share of revenue. Economically, SBC is a real cost: the company is paying employees with shares instead of cash, and that dilutes existing shareholders. A company could issue shares to investors for cash and use the cash to pay salaries; the effect on existing owners would be similar. So I prefer to treat SBC as if it were a cash expense: I do not add it back when calculating unlevered free cash flow. The alternative is to add it back but then increase the share count for all the future grants it implies, which is much harder to estimate. Either way, I pick one approach and avoid double counting, meaning I would not both deduct SBC and dilute for future grants. Existing options and RSUs still go into the diluted share count using the treasury stock method.\"}}, {\"@type\": \"Question\", \"name\": \"Does this matter more for some sectors?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, it matters most for tech and other high-growth companies where SBC is large relative to revenue and cash flow.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl S">Hard</span><h1>How should you treat stock-based compensation in free cash flow and a DCF?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="stock-based-compensation-in-a-dcf" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=stock-based-compensation-in-a-dcf" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=stock-based-compensation-in-a-dcf">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you recognize SBC as a real economic cost despite being non-cash, and can pick a consistent treatment without double counting.</p>
+<h2>Answer framework</h2><ol class=steps><li>Accounting: SBC is a non-cash expense, so it is added back in cash from operations.</li><li>Economics: it is still a real cost, paid in shares instead of cash, and it dilutes existing shareholders.</li><li>Preferred approach: treat SBC as a cash-like expense by not adding it back in unlevered FCF.</li><li>Alternative: add it back but reflect expected future dilution in the share count, which is hard to estimate.</li><li>Consistency: do one or the other, never both, and still use current diluted shares for existing awards.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Accounting treats stock-based compensation as an expense on the income statement, but because no cash leaves the company, it is added back on the cash flow statement. If I simply copy that add-back into a DCF, I am treating employee pay as free, which overstates free cash flow and value, especially for tech companies where SBC can be a large share of revenue.</p><p class=ans>Economically, SBC is a real cost: the company is paying employees with shares instead of cash, and that dilutes existing shareholders. A company could issue shares to investors for cash and use the cash to pay salaries; the effect on existing owners would be similar.</p><p class=ans>So I prefer to treat SBC as if it were a cash expense: I do not add it back when calculating unlevered free cash flow. The alternative is to add it back but then increase the share count for all the future grants it implies, which is much harder to estimate. Either way, I pick one approach and avoid double counting, meaning I would not both deduct SBC and dilute for future grants. Existing options and RSUs still go into the diluted share count using the treasury stock method.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Does this matter more for some sectors?</b> Yes, it matters most for tech and other high-growth companies where SBC is large relative to revenue and cash flow.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Adding back SBC as if it were a free non-cash item like D&amp;A.</li><li>Deducting SBC and also diluting for the same future grants.</li><li>Ignoring existing options and RSUs in diluted shares.</li><li>Saying SBC has no impact on shareholders because it is non-cash.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you recognize SBC as a real economic cost despite being non-cash, and can pick a consistent treatment without double counting.
-
-## Answer framework
-
-1. Accounting: SBC is a non-cash expense, so it is added back in cash from operations.
-2. Economics: it is still a real cost, paid in shares instead of cash, and it dilutes existing shareholders.
-3. Preferred approach: treat SBC as a cash-like expense by not adding it back in unlevered FCF.
-4. Alternative: add it back but reflect expected future dilution in the share count, which is hard to estimate.
-5. Consistency: do one or the other, never both, and still use current diluted shares for existing awards.
-
-## Sample answer
-
-> Accounting treats stock-based compensation as an expense on the income statement, but because no cash leaves the company, it is added back on the cash flow statement. If I simply copy that add-back into a DCF, I am treating employee pay as free, which overstates free cash flow and value, especially for tech companies where SBC can be a large share of revenue.
->
-> Economically, SBC is a real cost: the company is paying employees with shares instead of cash, and that dilutes existing shareholders. A company could issue shares to investors for cash and use the cash to pay salaries; the effect on existing owners would be similar.
->
-> So I prefer to treat SBC as if it were a cash expense: I do not add it back when calculating unlevered free cash flow. The alternative is to add it back but then increase the share count for all the future grants it implies, which is much harder to estimate. Either way, I pick one approach and avoid double counting, meaning I would not both deduct SBC and dilute for future grants. Existing options and RSUs still go into the diluted share count using the treasury stock method.
-
-## Likely follow-ups
-
-**Does this matter more for some sectors?** Yes, it matters most for tech and other high-growth companies where SBC is large relative to revenue and cash flow.
-
-## Common mistakes
-
-- Adding back SBC as if it were a free non-cash item like D&A.
-- Deducting SBC and also diluting for the same future grants.
-- Ignoring existing options and RSUs in diluted shares.
-- Saying SBC has no impact on shareholders because it is non-cash.
-
-## Related questions
-
-- [What is the difference between unlevered and levered free cash flow?](../unlevered-vs-levered-free-cash-flow/)
-- [How do you calculate diluted shares with the treasury stock method?](../treasury-stock-method-diluted-shares/)
-- [Walk me through a DCF](../walk-me-through-a-dcf/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on question #16 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../unlevered-vs-levered-free-cash-flow/">What is the difference between unlevered and levered free cash flow?</a></li><li><a href="../treasury-stock-method-diluted-shares/">How do you calculate diluted shares with the treasury stock method?</a></li><li><a href="../walk-me-through-a-dcf/">Walk me through a DCF</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on question #16 in the <a href="../../">full question bank</a>.</p>
+</div></main>

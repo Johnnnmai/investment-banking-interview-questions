@@ -4,55 +4,20 @@ title: "What is a deferred tax asset vs a deferred tax liability?"
 description: "Deferred tax asset vs deferred tax liability for IB interviews: book vs tax timing differences, accelerated depreciation, NOLs, valuation allowances, M&A write-ups."
 permalink: "/questions/deferred-tax-asset-vs-deferred-tax-liability/"
 slug: "deferred-tax-asset-vs-deferred-tax-liability"
-tagline: "Investment banking interview question (Medium): how to answer it"
+level: "Medium"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is a deferred tax asset vs a deferred tax liability?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Deferred taxes exist because companies keep two sets of rules: book accounting for reported financials and tax accounting for the tax authority. When income or expenses are recognized at different times under the two, the company records a deferred tax item to reflect taxes it will pay or save later. A deferred tax liability means the company has paid less tax so far than its book tax expense implies and will pay more later. The classic example is accelerated depreciation for tax purposes: tax depreciation is higher than book depreciation in the early years, so cash taxes are lower now and the difference reverses later. On the cash flow statement, an increase in a DTL is added back, since book tax expense exceeded cash tax. A deferred tax asset is the opposite: a future tax saving. Common sources are net operating losses that can offset future taxable income, and expenses such as warranty reserves that hit book income before they are deductible. If it is more likely than not that the company cannot use a DTA, it records a valuation allowance. In M&A, writing up a target's assets in a stock deal creates a new DTL, because book basis rises while tax basis stays the same.\"}}, {\"@type\": \"Question\", \"name\": \"How do NOLs affect valuation?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"They reduce future cash taxes, so their present value adds to value, subject to usage limits after an ownership change.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl M">Medium</span><h1>What is a deferred tax asset vs a deferred tax liability?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="deferred-tax-asset-vs-deferred-tax-liability" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=deferred-tax-asset-vs-deferred-tax-liability" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=deferred-tax-asset-vs-deferred-tax-liability">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you understand that deferred taxes come from timing differences between book and tax accounting, and can give correct examples of each.</p>
+<h2>Answer framework</h2><ol class=steps><li>Source: book (GAAP) income and taxable income differ in timing.</li><li>Deferred tax liability: lower taxes now, higher later, for example accelerated tax depreciation.</li><li>Deferred tax asset: higher taxes now or future deductions, for example net operating losses or expenses recognized for books before they are deductible.</li><li>Valuation allowance: reduces a DTA if it is unlikely to be used.</li><li>M&amp;A link: writing up assets in a stock deal creates a new DTL, because book basis rises but tax basis does not.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Deferred taxes exist because companies keep two sets of rules: book accounting for reported financials and tax accounting for the tax authority. When income or expenses are recognized at different times under the two, the company records a deferred tax item to reflect taxes it will pay or save later.</p><p class=ans>A deferred tax liability means the company has paid less tax so far than its book tax expense implies and will pay more later. The classic example is accelerated depreciation for tax purposes: tax depreciation is higher than book depreciation in the early years, so cash taxes are lower now and the difference reverses later. On the cash flow statement, an increase in a DTL is added back, since book tax expense exceeded cash tax.</p><p class=ans>A deferred tax asset is the opposite: a future tax saving. Common sources are net operating losses that can offset future taxable income, and expenses such as warranty reserves that hit book income before they are deductible. If it is more likely than not that the company cannot use a DTA, it records a valuation allowance. In M&amp;A, writing up a target&#x27;s assets in a stock deal creates a new DTL, because book basis rises while tax basis stays the same.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>How do NOLs affect valuation?</b> They reduce future cash taxes, so their present value adds to value, subject to usage limits after an ownership change.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Describing deferred taxes as taxes the company forgot to pay.</li><li>Reversing the accelerated depreciation example.</li><li>Forgetting valuation allowances on DTAs.</li><li>Missing the DTL created by asset write-ups in stock deals.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you understand that deferred taxes come from timing differences between book and tax accounting, and can give correct examples of each.
-
-## Answer framework
-
-1. Source: book (GAAP) income and taxable income differ in timing.
-2. Deferred tax liability: lower taxes now, higher later, for example accelerated tax depreciation.
-3. Deferred tax asset: higher taxes now or future deductions, for example net operating losses or expenses recognized for books before they are deductible.
-4. Valuation allowance: reduces a DTA if it is unlikely to be used.
-5. M&A link: writing up assets in a stock deal creates a new DTL, because book basis rises but tax basis does not.
-
-## Sample answer
-
-> Deferred taxes exist because companies keep two sets of rules: book accounting for reported financials and tax accounting for the tax authority. When income or expenses are recognized at different times under the two, the company records a deferred tax item to reflect taxes it will pay or save later.
->
-> A deferred tax liability means the company has paid less tax so far than its book tax expense implies and will pay more later. The classic example is accelerated depreciation for tax purposes: tax depreciation is higher than book depreciation in the early years, so cash taxes are lower now and the difference reverses later. On the cash flow statement, an increase in a DTL is added back, since book tax expense exceeded cash tax.
->
-> A deferred tax asset is the opposite: a future tax saving. Common sources are net operating losses that can offset future taxable income, and expenses such as warranty reserves that hit book income before they are deductible. If it is more likely than not that the company cannot use a DTA, it records a valuation allowance. In M&A, writing up a target's assets in a stock deal creates a new DTL, because book basis rises while tax basis stays the same.
-
-## Likely follow-ups
-
-**How do NOLs affect valuation?** They reduce future cash taxes, so their present value adds to value, subject to usage limits after an ownership change.
-
-## Common mistakes
-
-- Describing deferred taxes as taxes the company forgot to pay.
-- Reversing the accelerated depreciation example.
-- Forgetting valuation allowances on DTAs.
-- Missing the DTL created by asset write-ups in stock deals.
-
-## Related questions
-
-- [How do you calculate goodwill in an acquisition (purchase price allocation)?](../how-to-calculate-goodwill-in-an-acquisition/)
-- [What is the difference between an asset deal and a stock deal?](../asset-deal-vs-stock-deal/)
-- [Walk me through the three financial statements](../walk-me-through-the-three-financial-statements/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on question #18 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../how-to-calculate-goodwill-in-an-acquisition/">How do you calculate goodwill in an acquisition (purchase price allocation)?</a></li><li><a href="../asset-deal-vs-stock-deal/">What is the difference between an asset deal and a stock deal?</a></li><li><a href="../walk-me-through-the-three-financial-statements/">Walk me through the three financial statements</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on question #18 in the <a href="../../">full question bank</a>.</p>
+</div></main>

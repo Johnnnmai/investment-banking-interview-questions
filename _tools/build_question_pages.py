@@ -5,14 +5,16 @@ Run from the repo root:  python3 _tools/build_question_pages.py
 The call-to-action lives in one place: `qpage_cta` in _config.yml, rendered by _includes/qpage-cta.html.
 (_tools/ is ignored by Jekyll because it starts with an underscore.)
 """
-import json, os, sys
+import html, json, os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from question_pages_data import PAGES
 AC_URL = "https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib"
-# Questions with a rubric in the self-check (AIE repo tools/answer_check_data.py IB keys); others open the tool on the IB track.
-AC_SLUGS = {"walk-me-through-a-dcf", "walk-me-through-the-three-financial-statements", "if-depreciation-goes-up-by-10-walk-me-through-the-three-statements", "enterprise-value-vs-equity-value", "what-is-wacc-and-how-do-you-calculate-it", "what-is-terminal-value-and-how-do-you-calculate-it", "walk-me-through-an-lbo-model", "how-do-you-do-a-paper-lbo", "walk-me-through-a-merger-model", "why-investment-banking"}
-SELFCHECK = "**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds]({url})\n\n"
+# Every page has a rubric in the self-check (AIE repo tools/answer_check_data.py IB keys), so each links with its own q.
+SELFCHECK = '<p class=selfcheck><b>Practiced one out loud?</b> <a href="{url}">Paste your answer into the free self-check and get a score in 30 seconds</a></p>'
+LVL = {"Easy": "E", "Medium": "M", "Hard": "S", "Fit": "F"}
+ARROW = '<span class=dot aria-hidden=true>&rarr;</span>'
+e = html.escape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://johnnnmai.github.io/investment-banking-interview-questions"
@@ -33,36 +35,57 @@ def page(p):
     faq += [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in p["followups"]]
     ld = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faq}, ensure_ascii=True).replace("</", "<\\/")
     fm = {"layout": "question", "title": p["q"], "description": p["desc"], "permalink": f"/questions/{p['slug']}/",
-          "slug": p["slug"], "tagline": f"Investment banking interview question ({p['level']}): how to answer it", "faq_jsonld": ld}
+          "slug": p["slug"], "level": p["level"], "faq_jsonld": ld}
+    ac = e(f"{AC_URL}&q={p['slug']}")
     o = [front(fm)]
-    o.append("[100 IB Interview Questions](../../) › [Questions](../) › This question\n\n")
-    o.append(SELFCHECK.format(url=AC_URL + (f"&q={p['slug']}" if p["slug"] in AC_SLUGS else "")))
-    o.append("{% include qpage-cta.html %}\n\n")
-    o.append("## What the interviewer is testing\n\n" + p["testing"] + "\n\n")
-    o.append("## Answer framework\n\n" + "".join(f"{i}. {s}\n" for i, s in enumerate(p["steps"], 1)) + "\n")
-    o.append("## Sample answer\n\n" + "".join(f"> {s}\n>\n" for s in p["sample"]).rstrip(">\n") + "\n\n")
+    # Raw HTML body (kramdown passes block HTML through); layout adds nav, sticky bar and footer.
+    o.append(f'<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div>'
+             f'<span class="lvl {LVL[p["level"]]}">{p["level"]}</span><h1>{e(p["q"])}</h1>'
+             '<p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>'
+             f'{{% include hero-buy.html campaign="{p["slug"]}" ghost_href="{ac}" ghost_text="Score my answer free" %}}</div></header>\n\n')
+    o.append('<main id=main class=body><div class=read>\n')
+    o.append(SELFCHECK.format(url=ac) + "\n")
+    o.append(f'<h2>What the interviewer is testing</h2><p>{e(p["testing"])}</p>\n')
+    o.append('<h2>Answer framework</h2><ol class=steps>' + "".join(f"<li>{e(s)}</li>" for s in p["steps"]) + "</ol>\n")
+    o.append('<h2>Sample answer</h2><div class=sample>' + "".join(f"<p class=ans>{e(s)}</p>" for s in p["sample"]) + "</div>\n")
     if p["followups"]:
-        o.append("## Likely follow-ups\n\n" + "".join(f"**{q}** {a}\n\n" for q, a in p["followups"]))
-    o.append("## Common mistakes\n\n" + "".join(f"- {m}\n" for m in p["mistakes"]) + "\n")
-    o.append("## Related questions\n\n" + "".join(f"- [{BY_SLUG[r]['q']}](../{r}/)\n" for r in p["related"]))
-    o.append("- [All question deep dives](../)\n- [All 100 investment banking interview questions with answers](../../)\n\n")
-    if p["src"]:
-        o.append("_Based on question" + ("s " if len(p["src"]) > 1 else " ") + ", ".join(f"#{n}" for n in p["src"]) + " in the [full question bank](../../)._\n\n")
-    else:
-        o.append("_Based on the fit questions section of the [full question bank](../../)._\n\n")
+        o.append('<h2>Likely follow-ups</h2>' + "".join(f'<div class=fu><b>{e(q)}</b> {e(a)}</div>' for q, a in p["followups"]) + "\n")
+    o.append('<h2>Common mistakes</h2><ul class=mist>' + "".join(f"<li>{e(m)}</li>" for m in p["mistakes"]) + "</ul>\n")
     o.append("{% include qpage-cta.html %}\n")
+    o.append('<h2>Related questions</h2><ul class=related>' +
+             "".join(f'<li><a href="../{r}/">{e(BY_SLUG[r]["q"])}</a></li>' for r in p["related"]) +
+             '<li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>\n')
+    if p["src"]:
+        o.append("<p class=muted>Based on question" + ("s " if len(p["src"]) > 1 else " ") + ", ".join(f"#{n}" for n in p["src"]) + ' in the <a href="../../">full question bank</a>.</p>\n')
+    else:
+        o.append('<p class=muted>Based on the fit questions section of the <a href="../../">full question bank</a>.</p>\n')
+    o.append("</div></main>\n")
     return "".join(o)
 
 
 def index():
-    fm = {"layout": "question", "title": "Investment Banking Interview Questions: Answer Frameworks and Sample Answers",
+    title = "Investment Banking Interview Questions: Answer Frameworks and Sample Answers"
+    fm = {"layout": "question", "title": title,
           "description": "Deep dives on the most-asked IB interview questions: DCF, three statements, EV vs equity value, WACC, LBO, merger model and why investment banking.",
-          "permalink": "/questions/", "slug": "questions-index", "tagline": "One page per question: what is tested, a framework, a sample answer and common mistakes"}
-    o = [front(fm), "[100 IB Interview Questions](../) › Questions\n\n", SELFCHECK.format(url=AC_URL)]
-    for p in PAGES:
-        o.append(f"### [{p['q']}]({p['slug']}/)\n\n_{p['level']}_ · {p['desc']}\n\n")
-    o.append("**Practice tool:** [Check your interview answer with the free Answer Self-Check](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib) (score, missed concepts and tips).\n\n")
-    o.append("[See all 100 investment banking interview questions with answers](../)\n\n{% include qpage-cta.html %}\n")
+          "permalink": "/questions/", "slug": "questions-index"}
+    cnt = {k: sum(1 for p in PAGES if p["level"] == k) for k in LVL}
+    o = [front(fm)]
+    o.append(f'<header class="qhero idx" data-hero><div class=wrap><div class="crumb label"><a href="../">Investment Banking Interview Questions</a> / Questions</div>'
+             f'<span class=bignum aria-hidden=true>{len(PAGES)}<em>deep dives</em></span><h1>{e(title)}</h1>'
+             '<p class=lead>One page per question: what the interviewer is testing, an answer framework, a sample answer, follow-ups and common mistakes.</p>'
+             f'{{% include hero-buy.html campaign="questions-index" ghost_href="{e(AC_URL)}" ghost_text="Score my answer free" %}}'
+             '<div class=chips>' + "".join(f'<span class="lvl {LVL[k]}">{cnt[k]} {k}</span>' for k in LVL if cnt[k]) +
+             '<span class=chip>Sample answer on every page</span></div></div></header>\n\n')
+    o.append('<main id=main class=body><div class=read>\n' + SELFCHECK.format(url=e(AC_URL)) + "\n<ol class=qlist>\n")
+    for i, p in enumerate(PAGES, 1):
+        o.append(f'<li><a class=qcard href="{p["slug"]}/"><span class=n>{i:02d}</span><span class="lvl {LVL[p["level"]]}">{p["level"]}</span>'
+                 f'<b>{e(p["q"])}</b><span class=d>{e(p["desc"])}</span></a></li>\n')
+        if i == 3:
+            o.append('{% include preview-card.html campaign="questions-index" %}\n')
+    o.append("</ol>\n")
+    o.append(f'<p><b>Practice tool:</b> <a href="{e(AC_URL)}">Check your interview answer with the free Answer Self-Check</a> (score, missed concepts and tips).</p>\n')
+    o.append('<p><a href="../">See all 100 investment banking interview questions with answers</a></p>\n')
+    o.append('{% include qpage-cta.html %}\n</div></main>\n')
     return "".join(o)
 
 

@@ -4,55 +4,20 @@ title: "What is WACC and how do you calculate it?"
 description: "What is WACC and how do you calculate it? IB interview answer with the formula, cost of equity via CAPM, after-tax cost of debt and the beta follow-up."
 permalink: "/questions/what-is-wacc-and-how-do-you-calculate-it/"
 slug: "what-is-wacc-and-how-do-you-calculate-it"
-tagline: "Investment banking interview question (Medium): how to answer it"
+level: "Medium"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is WACC and how do you calculate it?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"WACC is the blended required return of all capital providers. WACC = E/(D+E) x cost of equity + D/(D+E) x cost of debt x (1 - tax rate), plus a preferred-stock term if relevant. I use market values or a target capital structure for the weights. Cost of equity comes from CAPM: risk-free rate + levered beta x equity risk premium. Some practitioners add a size or company-specific premium. The risk-free rate is usually a long-term government bond yield in the currency of the cash flows. Cost of debt is the current yield or borrowing rate, taken after tax because interest is tax-deductible.\"}}, {\"@type\": \"Question\", \"name\": \"What beta would you use for a private company?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Take comparable public companies' levered betas, unlever each (levered beta / (1 + (1 - tax rate) x debt/equity)), take the median, then relever at the private company's target capital structure.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl M">Medium</span><h1>What is WACC and how do you calculate it?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="what-is-wacc-and-how-do-you-calculate-it" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-is-wacc-and-how-do-you-calculate-it" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&q=what-is-wacc-and-how-do-you-calculate-it)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=what-is-wacc-and-how-do-you-calculate-it">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you know the formula, can explain each input (weights, cost of equity, after-tax cost of debt), and can handle the private-company beta follow-up.</p>
+<h2>Answer framework</h2><ol class=steps><li>Define it: the blended required return of all capital providers.</li><li>Formula: WACC = E/(D+E) x cost of equity + D/(D+E) x cost of debt x (1 - tax rate), plus a preferred term if relevant.</li><li>Weights: market values or a target capital structure.</li><li>Cost of equity: CAPM, risk-free rate + levered beta x equity risk premium.</li><li>Cost of debt: current yield or borrowing rate, after tax because interest is deductible.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>WACC is the blended required return of all capital providers. WACC = E/(D+E) x cost of equity + D/(D+E) x cost of debt x (1 - tax rate), plus a preferred-stock term if relevant. I use market values or a target capital structure for the weights.</p><p class=ans>Cost of equity comes from CAPM: risk-free rate + levered beta x equity risk premium. Some practitioners add a size or company-specific premium. The risk-free rate is usually a long-term government bond yield in the currency of the cash flows.</p><p class=ans>Cost of debt is the current yield or borrowing rate, taken after tax because interest is tax-deductible.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>What beta would you use for a private company?</b> Take comparable public companies&#x27; levered betas, unlever each (levered beta / (1 + (1 - tax rate) x debt/equity)), take the median, then relever at the private company&#x27;s target capital structure.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Using book values for the weights without saying why.</li><li>Forgetting to tax-effect the cost of debt.</li><li>Using an unlevered beta in CAPM for the cost of equity.</li><li>Using the private company&#x27;s own (non-existent) beta instead of comparables.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you know the formula, can explain each input (weights, cost of equity, after-tax cost of debt), and can handle the private-company beta follow-up.
-
-## Answer framework
-
-1. Define it: the blended required return of all capital providers.
-2. Formula: WACC = E/(D+E) x cost of equity + D/(D+E) x cost of debt x (1 - tax rate), plus a preferred term if relevant.
-3. Weights: market values or a target capital structure.
-4. Cost of equity: CAPM, risk-free rate + levered beta x equity risk premium.
-5. Cost of debt: current yield or borrowing rate, after tax because interest is deductible.
-
-## Sample answer
-
-> WACC is the blended required return of all capital providers. WACC = E/(D+E) x cost of equity + D/(D+E) x cost of debt x (1 - tax rate), plus a preferred-stock term if relevant. I use market values or a target capital structure for the weights.
->
-> Cost of equity comes from CAPM: risk-free rate + levered beta x equity risk premium. Some practitioners add a size or company-specific premium. The risk-free rate is usually a long-term government bond yield in the currency of the cash flows.
->
-> Cost of debt is the current yield or borrowing rate, taken after tax because interest is tax-deductible.
-
-## Likely follow-ups
-
-**What beta would you use for a private company?** Take comparable public companies' levered betas, unlever each (levered beta / (1 + (1 - tax rate) x debt/equity)), take the median, then relever at the private company's target capital structure.
-
-## Common mistakes
-
-- Using book values for the weights without saying why.
-- Forgetting to tax-effect the cost of debt.
-- Using an unlevered beta in CAPM for the cost of equity.
-- Using the private company's own (non-existent) beta instead of comparables.
-
-## Related questions
-
-- [Walk me through a DCF](../walk-me-through-a-dcf/)
-- [What is terminal value and how do you calculate it?](../what-is-terminal-value-and-how-do-you-calculate-it/)
-- [Enterprise value vs equity value: what is the difference?](../enterprise-value-vs-equity-value/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #27, #28, #29 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../walk-me-through-a-dcf/">Walk me through a DCF</a></li><li><a href="../what-is-terminal-value-and-how-do-you-calculate-it/">What is terminal value and how do you calculate it?</a></li><li><a href="../enterprise-value-vs-equity-value/">Enterprise value vs equity value: what is the difference?</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #27, #28, #29 in the <a href="../../">full question bank</a>.</p>
+</div></main>

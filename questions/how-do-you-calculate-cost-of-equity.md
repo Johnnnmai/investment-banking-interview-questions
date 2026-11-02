@@ -4,55 +4,20 @@ title: "How do you calculate cost of equity?"
 description: "How to calculate cost of equity for IB interviews: CAPM with risk-free rate, beta and equity risk premium, a worked example, and when to add a size premium."
 permalink: "/questions/how-do-you-calculate-cost-of-equity/"
 slug: "how-do-you-calculate-cost-of-equity"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How do you calculate cost of equity?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I would use the capital asset pricing model. Cost of equity equals the risk-free rate plus beta times the equity risk premium. It represents the return equity investors require, given how risky the stock is relative to the market. For the risk-free rate, I use the yield on a long-term government bond in the currency of the cash flows, typically the 10-year Treasury for a US company. Beta measures how much the stock moves relative to the market; because a single company's historical beta is noisy, bankers often unlever the betas of comparable companies, take the median and relever it at the target's capital structure. The equity risk premium is the extra return investors expect from stocks over government bonds; banks usually take it from a standard data provider or internal guidance. As an example, with a 4% risk-free rate, a beta of 1.2 and a 5% equity risk premium, cost of equity is 4% plus 6%, or 10%. For a small or unusually risky company I might add a size premium. Cost of equity then feeds into WACC alongside the after-tax cost of debt.\"}}, {\"@type\": \"Question\", \"name\": \"Why is cost of equity higher than cost of debt?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Equity holders are paid last and have no fixed return, and interest on debt is tax-deductible, so debt is cheaper.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>How do you calculate cost of equity?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="how-do-you-calculate-cost-of-equity" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=how-do-you-calculate-cost-of-equity" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=how-do-you-calculate-cost-of-equity">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you can apply CAPM, explain each input and where it comes from, and know common adjustments.</p>
+<h2>Answer framework</h2><ol class=steps><li>Use CAPM: cost of equity = risk-free rate + beta x equity risk premium.</li><li>Risk-free rate: usually the yield on a long-term government bond, such as the 10-year Treasury, in the same currency as the cash flows.</li><li>Beta: sensitivity to the market; for a public company use its own or a peer-based relevered beta.</li><li>Equity risk premium: the extra return investors expect from stocks over the risk-free rate, from a chosen source.</li><li>Adjustments: add a size or company-specific premium for small or risky companies when justified.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>I would use the capital asset pricing model. Cost of equity equals the risk-free rate plus beta times the equity risk premium. It represents the return equity investors require, given how risky the stock is relative to the market.</p><p class=ans>For the risk-free rate, I use the yield on a long-term government bond in the currency of the cash flows, typically the 10-year Treasury for a US company. Beta measures how much the stock moves relative to the market; because a single company&#x27;s historical beta is noisy, bankers often unlever the betas of comparable companies, take the median and relever it at the target&#x27;s capital structure. The equity risk premium is the extra return investors expect from stocks over government bonds; banks usually take it from a standard data provider or internal guidance.</p><p class=ans>As an example, with a 4% risk-free rate, a beta of 1.2 and a 5% equity risk premium, cost of equity is 4% plus 6%, or 10%. For a small or unusually risky company I might add a size premium. Cost of equity then feeds into WACC alongside the after-tax cost of debt.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Why is cost of equity higher than cost of debt?</b> Equity holders are paid last and have no fixed return, and interest on debt is tax-deductible, so debt is cheaper.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Adding beta and the risk premium instead of multiplying.</li><li>Using a short-term bill rate for long-duration cash flows without reason.</li><li>Relying on a single noisy historical beta.</li><li>Mixing currencies between the risk-free rate and the cash flows.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you can apply CAPM, explain each input and where it comes from, and know common adjustments.
-
-## Answer framework
-
-1. Use CAPM: cost of equity = risk-free rate + beta x equity risk premium.
-2. Risk-free rate: usually the yield on a long-term government bond, such as the 10-year Treasury, in the same currency as the cash flows.
-3. Beta: sensitivity to the market; for a public company use its own or a peer-based relevered beta.
-4. Equity risk premium: the extra return investors expect from stocks over the risk-free rate, from a chosen source.
-5. Adjustments: add a size or company-specific premium for small or risky companies when justified.
-
-## Sample answer
-
-> I would use the capital asset pricing model. Cost of equity equals the risk-free rate plus beta times the equity risk premium. It represents the return equity investors require, given how risky the stock is relative to the market.
->
-> For the risk-free rate, I use the yield on a long-term government bond in the currency of the cash flows, typically the 10-year Treasury for a US company. Beta measures how much the stock moves relative to the market; because a single company's historical beta is noisy, bankers often unlever the betas of comparable companies, take the median and relever it at the target's capital structure. The equity risk premium is the extra return investors expect from stocks over government bonds; banks usually take it from a standard data provider or internal guidance.
->
-> As an example, with a 4% risk-free rate, a beta of 1.2 and a 5% equity risk premium, cost of equity is 4% plus 6%, or 10%. For a small or unusually risky company I might add a size premium. Cost of equity then feeds into WACC alongside the after-tax cost of debt.
-
-## Likely follow-ups
-
-**Why is cost of equity higher than cost of debt?** Equity holders are paid last and have no fixed return, and interest on debt is tax-deductible, so debt is cheaper.
-
-## Common mistakes
-
-- Adding beta and the risk premium instead of multiplying.
-- Using a short-term bill rate for long-duration cash flows without reason.
-- Relying on a single noisy historical beta.
-- Mixing currencies between the risk-free rate and the cash flows.
-
-## Related questions
-
-- [What is WACC and how do you calculate it?](../what-is-wacc-and-how-do-you-calculate-it/)
-- [What beta would you use for a private company?](../beta-for-a-private-company/)
-- [Walk me through a DCF](../walk-me-through-a-dcf/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #28, #42 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../what-is-wacc-and-how-do-you-calculate-it/">What is WACC and how do you calculate it?</a></li><li><a href="../beta-for-a-private-company/">What beta would you use for a private company?</a></li><li><a href="../walk-me-through-a-dcf/">Walk me through a DCF</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #28, #42 in the <a href="../../">full question bank</a>.</p>
+</div></main>

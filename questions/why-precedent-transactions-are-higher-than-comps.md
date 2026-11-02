@@ -4,55 +4,20 @@ title: "Why do precedent transactions usually give higher valuations than comps?
 description: "Why precedent transactions usually exceed trading comps: control premiums, synergies and competitive auctions, plus when the pattern reverses and data limits."
 permalink: "/questions/why-precedent-transactions-are-higher-than-comps/"
 slug: "why-precedent-transactions-are-higher-than-comps"
-tagline: "Investment banking interview question (Easy): how to answer it"
+level: "Easy"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Why do precedent transactions usually give higher valuations than comps?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The main reason is control. A share price in the public market reflects what investors pay for a small minority stake. In an acquisition, the buyer is purchasing the entire company and gains control of its strategy, cash flows and assets, so it has to pay a premium over the current share price to convince shareholders to sell. Two other factors push the price higher. Strategic buyers often expect synergies, such as cost savings from combining operations, and in a competitive deal they end up paying part of that value to the seller. And sell-side processes are often auctions, where several bidders compete for the asset. There are exceptions. Precedent transactions happened at different points in the market cycle, so deals done in a weak market can show lower multiples than today's trading comps. Precedent data is also harder to work with: deals may be years old, private targets disclose limited financials, and each deal has its own circumstances. That is why I treat precedents as one input in a valuation and explain which deals are most relevant rather than taking a simple median.\"}}, {\"@type\": \"Question\", \"name\": \"When might precedents be lower than comps?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"When the deals happened in a weaker market or were distressed sales, while today's trading multiples are elevated.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl E">Easy</span><h1>Why do precedent transactions usually give higher valuations than comps?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="why-precedent-transactions-are-higher-than-comps" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=why-precedent-transactions-are-higher-than-comps" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=why-precedent-transactions-are-higher-than-comps">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you understand the difference between a minority trading price and a price paid for control, and the limits of precedent data.</p>
+<h2>Answer framework</h2><ol class=steps><li>Comps reflect trading prices for small minority stakes; precedents reflect prices paid for control of whole companies.</li><li>Control premium: buyers pay above the market price to gain control.</li><li>Synergies: strategic buyers can pay part of expected synergies to the seller.</li><li>Competitive processes: auctions push prices up.</li><li>Caveats: market timing can reverse the pattern, and precedent data is often older and less complete.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>The main reason is control. A share price in the public market reflects what investors pay for a small minority stake. In an acquisition, the buyer is purchasing the entire company and gains control of its strategy, cash flows and assets, so it has to pay a premium over the current share price to convince shareholders to sell.</p><p class=ans>Two other factors push the price higher. Strategic buyers often expect synergies, such as cost savings from combining operations, and in a competitive deal they end up paying part of that value to the seller. And sell-side processes are often auctions, where several bidders compete for the asset.</p><p class=ans>There are exceptions. Precedent transactions happened at different points in the market cycle, so deals done in a weak market can show lower multiples than today&#x27;s trading comps. Precedent data is also harder to work with: deals may be years old, private targets disclose limited financials, and each deal has its own circumstances. That is why I treat precedents as one input in a valuation and explain which deals are most relevant rather than taking a simple median.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>When might precedents be lower than comps?</b> When the deals happened in a weaker market or were distressed sales, while today&#x27;s trading multiples are elevated.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Saying precedents are higher because they are more accurate.</li><li>Forgetting the role of synergies.</li><li>Ignoring market timing differences between deals.</li><li>Treating every precedent deal as equally relevant.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you understand the difference between a minority trading price and a price paid for control, and the limits of precedent data.
-
-## Answer framework
-
-1. Comps reflect trading prices for small minority stakes; precedents reflect prices paid for control of whole companies.
-2. Control premium: buyers pay above the market price to gain control.
-3. Synergies: strategic buyers can pay part of expected synergies to the seller.
-4. Competitive processes: auctions push prices up.
-5. Caveats: market timing can reverse the pattern, and precedent data is often older and less complete.
-
-## Sample answer
-
-> The main reason is control. A share price in the public market reflects what investors pay for a small minority stake. In an acquisition, the buyer is purchasing the entire company and gains control of its strategy, cash flows and assets, so it has to pay a premium over the current share price to convince shareholders to sell.
->
-> Two other factors push the price higher. Strategic buyers often expect synergies, such as cost savings from combining operations, and in a competitive deal they end up paying part of that value to the seller. And sell-side processes are often auctions, where several bidders compete for the asset.
->
-> There are exceptions. Precedent transactions happened at different points in the market cycle, so deals done in a weak market can show lower multiples than today's trading comps. Precedent data is also harder to work with: deals may be years old, private targets disclose limited financials, and each deal has its own circumstances. That is why I treat precedents as one input in a valuation and explain which deals are most relevant rather than taking a simple median.
-
-## Likely follow-ups
-
-**When might precedents be lower than comps?** When the deals happened in a weaker market or were distressed sales, while today's trading multiples are elevated.
-
-## Common mistakes
-
-- Saying precedents are higher because they are more accurate.
-- Forgetting the role of synergies.
-- Ignoring market timing differences between deals.
-- Treating every precedent deal as equally relevant.
-
-## Related questions
-
-- [Walk me through how you would build a comparable companies analysis](../how-to-build-a-comparable-companies-analysis/)
-- [What are synergies in M&A?](../what-are-synergies/)
-- [Walk me through a sell-side M&A process](../walk-me-through-a-sell-side-m-and-a-process/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #36, #38 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../how-to-build-a-comparable-companies-analysis/">Walk me through how you would build a comparable companies analysis</a></li><li><a href="../what-are-synergies/">What are synergies in M&amp;A?</a></li><li><a href="../walk-me-through-a-sell-side-m-and-a-process/">Walk me through a sell-side M&amp;A process</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #36, #38 in the <a href="../../">full question bank</a>.</p>
+</div></main>

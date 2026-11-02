@@ -4,55 +4,20 @@ title: "How do you do a paper LBO?"
 description: "Paper LBO walkthrough for IB and PE interviews: 10x entry, $200M EBITDA, 6x debt, 5% growth, 10x exit in 5 years, with MOIC, IRR and rules of thumb."
 permalink: "/questions/how-do-you-do-a-paper-lbo/"
 slug: "how-do-you-do-a-paper-lbo"
-tagline: "Investment banking interview question (Medium): how to answer it"
+level: "Medium"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How do you do a paper LBO?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Take 10x entry, $200M EBITDA, 6x debt, 5% growth and a 10x exit in 5 years. Entry enterprise value is 10 x $200M = $2,000M; debt at 6x is $1,200M, so equity is $800M, ignoring fees. Year-5 EBITDA is $200M x 1.05^5, about $255M. Exit at 10x is about $2,553M. If no debt is repaid, exit equity is $2,553M - $1,200M = $1,353M: MOIC about 1.7x, IRR about 11%. If, say, $300M of debt is repaid from free cash flow, exit equity is about $1,653M: MOIC about 2.1x, IRR about 15 to 16%.\"}}, {\"@type\": \"Question\", \"name\": \"What rules of thumb help estimate IRR?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"2x in 5 years is about 15% IRR; 2x in 3 years is about 26%; 3x in 5 years is about 25%. For a single entry and exit, IRR = MOIC^(1/years) - 1.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl M">Medium</span><h1>How do you do a paper LBO?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="how-do-you-do-a-paper-lbo" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=how-do-you-do-a-paper-lbo" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&q=how-do-you-do-a-paper-lbo)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=how-do-you-do-a-paper-lbo">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Speed and structure with mental math: entry value, debt and equity, exit value, exit equity, then MOIC and an approximate IRR, without a calculator.</p>
+<h2>Answer framework</h2><ol class=steps><li>Entry: enterprise value = entry multiple x EBITDA; split into debt and equity (ignore fees unless told).</li><li>Exit EBITDA: grow EBITDA over the hold period.</li><li>Exit value: exit multiple x exit EBITDA.</li><li>Exit equity: exit value minus remaining debt (after any paydown).</li><li>Returns: MOIC = exit equity / entry equity; estimate IRR with rules of thumb.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Take 10x entry, $200M EBITDA, 6x debt, 5% growth and a 10x exit in 5 years. Entry enterprise value is 10 x $200M = $2,000M; debt at 6x is $1,200M, so equity is $800M, ignoring fees.</p><p class=ans>Year-5 EBITDA is $200M x 1.05^5, about $255M. Exit at 10x is about $2,553M. If no debt is repaid, exit equity is $2,553M - $1,200M = $1,353M: MOIC about 1.7x, IRR about 11%.</p><p class=ans>If, say, $300M of debt is repaid from free cash flow, exit equity is about $1,653M: MOIC about 2.1x, IRR about 15 to 16%.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>What rules of thumb help estimate IRR?</b> 2x in 5 years is about 15% IRR; 2x in 3 years is about 26%; 3x in 5 years is about 25%. For a single entry and exit, IRR = MOIC^(1/years) - 1.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Forgetting to subtract remaining debt at exit.</li><li>Computing MOIC on enterprise value instead of equity.</li><li>Losing time on exact IRR math instead of using rules of thumb.</li><li>Not stating simplifying assumptions such as ignoring fees.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Speed and structure with mental math: entry value, debt and equity, exit value, exit equity, then MOIC and an approximate IRR, without a calculator.
-
-## Answer framework
-
-1. Entry: enterprise value = entry multiple x EBITDA; split into debt and equity (ignore fees unless told).
-2. Exit EBITDA: grow EBITDA over the hold period.
-3. Exit value: exit multiple x exit EBITDA.
-4. Exit equity: exit value minus remaining debt (after any paydown).
-5. Returns: MOIC = exit equity / entry equity; estimate IRR with rules of thumb.
-
-## Sample answer
-
-> Take 10x entry, $200M EBITDA, 6x debt, 5% growth and a 10x exit in 5 years. Entry enterprise value is 10 x $200M = $2,000M; debt at 6x is $1,200M, so equity is $800M, ignoring fees.
->
-> Year-5 EBITDA is $200M x 1.05^5, about $255M. Exit at 10x is about $2,553M. If no debt is repaid, exit equity is $2,553M - $1,200M = $1,353M: MOIC about 1.7x, IRR about 11%.
->
-> If, say, $300M of debt is repaid from free cash flow, exit equity is about $1,653M: MOIC about 2.1x, IRR about 15 to 16%.
-
-## Likely follow-ups
-
-**What rules of thumb help estimate IRR?** 2x in 5 years is about 15% IRR; 2x in 3 years is about 26%; 3x in 5 years is about 25%. For a single entry and exit, IRR = MOIC^(1/years) - 1.
-
-## Common mistakes
-
-- Forgetting to subtract remaining debt at exit.
-- Computing MOIC on enterprise value instead of equity.
-- Losing time on exact IRR math instead of using rules of thumb.
-- Not stating simplifying assumptions such as ignoring fees.
-
-## Related questions
-
-- [Walk me through an LBO model](../walk-me-through-an-lbo-model/)
-- [Walk me through a merger model](../walk-me-through-a-merger-model/)
-- [What is terminal value and how do you calculate it?](../what-is-terminal-value-and-how-do-you-calculate-it/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #74, #75 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../walk-me-through-an-lbo-model/">Walk me through an LBO model</a></li><li><a href="../walk-me-through-a-merger-model/">Walk me through a merger model</a></li><li><a href="../what-is-terminal-value-and-how-do-you-calculate-it/">What is terminal value and how do you calculate it?</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #74, #75 in the <a href="../../">full question bank</a>.</p>
+</div></main>

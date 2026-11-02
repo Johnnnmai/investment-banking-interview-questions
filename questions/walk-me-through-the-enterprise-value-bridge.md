@@ -4,55 +4,20 @@ title: "Walk me through the enterprise value bridge"
 description: "Enterprise value bridge for IB interviews: from diluted equity value to EV, adding debt, preferred stock and minority interest, subtracting cash and investments."
 permalink: "/questions/walk-me-through-the-enterprise-value-bridge/"
 slug: "walk-me-through-the-enterprise-value-bridge"
-tagline: "Investment banking interview question (Medium): how to answer it"
+level: "Medium"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Walk me through the enterprise value bridge\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Enterprise value measures what the operating business is worth to debt and equity holders together, so the bridge starts from equity value and adds or subtracts items to reach that. I start with diluted equity value: share price times diluted shares, using the treasury stock method for options and adding RSUs and in-the-money convertibles. Then I add the claims of other capital providers. Debt, including finance leases, and preferred stock both sit ahead of common equity, so a buyer of the whole business has to take them on. I add noncontrolling interest because if the company owns, say, 80% of a subsidiary, it consolidates 100% of that subsidiary's revenue and EBITDA, so EV must include the 20% it does not own to stay consistent with those metrics. Next I subtract cash and other non-operating assets, such as equity-method investments, because they are not part of operations and their income is not in EBITDA. Finally there are judgment items, such as unfunded pensions, which many bankers treat as debt-like. The test for every item is consistency: if the related earnings are in the metric I divide by, the claim belongs in EV.\"}}, {\"@type\": \"Question\", \"name\": \"Why subtract equity-method investments?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Their EBITDA is not consolidated, so including their value in EV would mismatch EV/EBITDA.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl M">Medium</span><h1>Walk me through the enterprise value bridge</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="walk-me-through-the-enterprise-value-bridge" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=walk-me-through-the-enterprise-value-bridge" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=walk-me-through-the-enterprise-value-bridge">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you can build EV item by item and explain each adjustment with the consistency principle, beyond reciting the basic formula.</p>
+<h2>Answer framework</h2><ol class=steps><li>Start with equity value: diluted shares times share price.</li><li>Add debt (including capital or finance leases) and preferred stock: other capital providers&#x27; claims on operations.</li><li>Add noncontrolling (minority) interest, because 100% of the subsidiary&#x27;s results are consolidated.</li><li>Subtract cash and non-operating assets such as equity-method investments.</li><li>Mention judgment items: unfunded pension liabilities and, depending on the metric, operating leases.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Enterprise value measures what the operating business is worth to debt and equity holders together, so the bridge starts from equity value and adds or subtracts items to reach that. I start with diluted equity value: share price times diluted shares, using the treasury stock method for options and adding RSUs and in-the-money convertibles.</p><p class=ans>Then I add the claims of other capital providers. Debt, including finance leases, and preferred stock both sit ahead of common equity, so a buyer of the whole business has to take them on. I add noncontrolling interest because if the company owns, say, 80% of a subsidiary, it consolidates 100% of that subsidiary&#x27;s revenue and EBITDA, so EV must include the 20% it does not own to stay consistent with those metrics.</p><p class=ans>Next I subtract cash and other non-operating assets, such as equity-method investments, because they are not part of operations and their income is not in EBITDA. Finally there are judgment items, such as unfunded pensions, which many bankers treat as debt-like. The test for every item is consistency: if the related earnings are in the metric I divide by, the claim belongs in EV.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Why subtract equity-method investments?</b> Their EBITDA is not consolidated, so including their value in EV would mismatch EV/EBITDA.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Using basic instead of diluted shares.</li><li>Forgetting noncontrolling interest or preferred stock.</li><li>Not explaining why items are added or subtracted.</li><li>Subtracting all cash without considering minimum operating cash, if asked.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you can build EV item by item and explain each adjustment with the consistency principle, beyond reciting the basic formula.
-
-## Answer framework
-
-1. Start with equity value: diluted shares times share price.
-2. Add debt (including capital or finance leases) and preferred stock: other capital providers' claims on operations.
-3. Add noncontrolling (minority) interest, because 100% of the subsidiary's results are consolidated.
-4. Subtract cash and non-operating assets such as equity-method investments.
-5. Mention judgment items: unfunded pension liabilities and, depending on the metric, operating leases.
-
-## Sample answer
-
-> Enterprise value measures what the operating business is worth to debt and equity holders together, so the bridge starts from equity value and adds or subtracts items to reach that. I start with diluted equity value: share price times diluted shares, using the treasury stock method for options and adding RSUs and in-the-money convertibles.
->
-> Then I add the claims of other capital providers. Debt, including finance leases, and preferred stock both sit ahead of common equity, so a buyer of the whole business has to take them on. I add noncontrolling interest because if the company owns, say, 80% of a subsidiary, it consolidates 100% of that subsidiary's revenue and EBITDA, so EV must include the 20% it does not own to stay consistent with those metrics.
->
-> Next I subtract cash and other non-operating assets, such as equity-method investments, because they are not part of operations and their income is not in EBITDA. Finally there are judgment items, such as unfunded pensions, which many bankers treat as debt-like. The test for every item is consistency: if the related earnings are in the metric I divide by, the claim belongs in EV.
-
-## Likely follow-ups
-
-**Why subtract equity-method investments?** Their EBITDA is not consolidated, so including their value in EV would mismatch EV/EBITDA.
-
-## Common mistakes
-
-- Using basic instead of diluted shares.
-- Forgetting noncontrolling interest or preferred stock.
-- Not explaining why items are added or subtracted.
-- Subtracting all cash without considering minimum operating cash, if asked.
-
-## Related questions
-
-- [Enterprise value vs equity value: what is the difference?](../enterprise-value-vs-equity-value/)
-- [Why do you add minority interest (noncontrolling interest) to enterprise value?](../why-add-minority-interest-to-enterprise-value/)
-- [How do you calculate diluted shares with the treasury stock method?](../treasury-stock-method-diluted-shares/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #9, #48, #47 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../enterprise-value-vs-equity-value/">Enterprise value vs equity value: what is the difference?</a></li><li><a href="../why-add-minority-interest-to-enterprise-value/">Why do you add minority interest (noncontrolling interest) to enterprise value?</a></li><li><a href="../treasury-stock-method-diluted-shares/">How do you calculate diluted shares with the treasury stock method?</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #9, #48, #47 in the <a href="../../">full question bank</a>.</p>
+</div></main>

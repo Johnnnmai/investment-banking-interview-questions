@@ -4,55 +4,20 @@ title: "What is the difference between unlevered and levered free cash flow?"
 description: "Unlevered vs levered free cash flow for IB interviews: formulas, why interest and debt repayment matter, matching discount rates, and which value each gives."
 permalink: "/questions/unlevered-vs-levered-free-cash-flow/"
 slug: "unlevered-vs-levered-free-cash-flow"
-tagline: "Investment banking interview question (Medium): how to answer it"
+level: "Medium"
 faq_jsonld: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is the difference between unlevered and levered free cash flow?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Unlevered free cash flow is the cash the business generates before any payments to lenders, so it belongs to all capital providers. I calculate it as EBIT times one minus the tax rate, plus D&A, minus capex, minus the increase in net working capital. Starting from EBIT means interest expense, and the tax shield it creates, are excluded, so the result does not depend on how the company is financed. Levered free cash flow is what is left for equity holders after the company services its debt. It starts from net income, which is already after interest, then adds D&A, subtracts capex and the increase in working capital, and subtracts mandatory debt repayments. If the company is borrowing new debt, net borrowing is added. The key is matching. Unlevered free cash flow goes with WACC, because it belongs to debt and equity holders together, and the DCF gives enterprise value. Levered free cash flow goes with cost of equity and gives equity value directly. Bankers usually use unlevered DCFs because capital structure can change and the result is easier to compare across companies; levered cash flow matters more in LBOs and for banks.\"}}, {\"@type\": \"Question\", \"name\": \"Why is unlevered FCF more common in DCFs?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"It separates operating value from financing choices, which can change, and avoids forecasting the debt schedule in detail.\"}}]}"
 ---
 
-[100 IB Interview Questions](../../) › [Questions](../) › This question
+<header class=qhero data-hero><div class=wrap><div class="crumb label"><a href="../../">Investment Banking Interview Questions</a> / <a href="../">Questions</a></div><span class="lvl M">Medium</span><h1>What is the difference between unlevered and levered free cash flow?</h1><p class=lead>How to answer it in an investment banking interview: what is being tested, a step-by-step framework, a sample answer and the mistakes to avoid.</p>{% include hero-buy.html campaign="unlevered-vs-levered-free-cash-flow" ghost_href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=unlevered-vs-levered-free-cash-flow" ghost_text="Score my answer free" %}</div></header>
 
-**Practiced one out loud?** [Paste your answer into the free self-check and get a score in 30 seconds](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib)
-
+<main id=main class=body><div class=read>
+<p class=selfcheck><b>Practiced one out loud?</b> <a href="https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&amp;q=unlevered-vs-levered-free-cash-flow">Paste your answer into the free self-check and get a score in 30 seconds</a></p>
+<h2>What the interviewer is testing</h2><p>Whether you can write both formulas, explain what capital providers each one belongs to, and match each to the correct discount rate and valuation output.</p>
+<h2>Answer framework</h2><ol class=steps><li>Unlevered FCF: cash flow available to all capital providers, before interest.</li><li>Formula: EBIT x (1 - tax rate) + D&amp;A - capex - increase in net working capital.</li><li>Levered FCF: cash flow available to equity holders after interest and required debt repayments.</li><li>Formula: net income + D&amp;A - capex - increase in NWC - mandatory debt repayments (plus net new borrowing if modeled).</li><li>Matching: unlevered FCF discounted at WACC gives enterprise value; levered FCF at cost of equity gives equity value.</li></ol>
+<h2>Sample answer</h2><div class=sample><p class=ans>Unlevered free cash flow is the cash the business generates before any payments to lenders, so it belongs to all capital providers. I calculate it as EBIT times one minus the tax rate, plus D&amp;A, minus capex, minus the increase in net working capital. Starting from EBIT means interest expense, and the tax shield it creates, are excluded, so the result does not depend on how the company is financed.</p><p class=ans>Levered free cash flow is what is left for equity holders after the company services its debt. It starts from net income, which is already after interest, then adds D&amp;A, subtracts capex and the increase in working capital, and subtracts mandatory debt repayments. If the company is borrowing new debt, net borrowing is added.</p><p class=ans>The key is matching. Unlevered free cash flow goes with WACC, because it belongs to debt and equity holders together, and the DCF gives enterprise value. Levered free cash flow goes with cost of equity and gives equity value directly. Bankers usually use unlevered DCFs because capital structure can change and the result is easier to compare across companies; levered cash flow matters more in LBOs and for banks.</p></div>
+<h2>Likely follow-ups</h2><div class=fu><b>Why is unlevered FCF more common in DCFs?</b> It separates operating value from financing choices, which can change, and avoids forecasting the debt schedule in detail.</div>
+<h2>Common mistakes</h2><ul class=mist><li>Discounting levered FCF at WACC.</li><li>Subtracting interest when calculating unlevered FCF.</li><li>Getting the sign of the working capital change wrong.</li><li>Forgetting mandatory debt repayments in levered FCF.</li></ul>
 {% include qpage-cta.html %}
-
-## What the interviewer is testing
-
-Whether you can write both formulas, explain what capital providers each one belongs to, and match each to the correct discount rate and valuation output.
-
-## Answer framework
-
-1. Unlevered FCF: cash flow available to all capital providers, before interest.
-2. Formula: EBIT x (1 - tax rate) + D&A - capex - increase in net working capital.
-3. Levered FCF: cash flow available to equity holders after interest and required debt repayments.
-4. Formula: net income + D&A - capex - increase in NWC - mandatory debt repayments (plus net new borrowing if modeled).
-5. Matching: unlevered FCF discounted at WACC gives enterprise value; levered FCF at cost of equity gives equity value.
-
-## Sample answer
-
-> Unlevered free cash flow is the cash the business generates before any payments to lenders, so it belongs to all capital providers. I calculate it as EBIT times one minus the tax rate, plus D&A, minus capex, minus the increase in net working capital. Starting from EBIT means interest expense, and the tax shield it creates, are excluded, so the result does not depend on how the company is financed.
->
-> Levered free cash flow is what is left for equity holders after the company services its debt. It starts from net income, which is already after interest, then adds D&A, subtracts capex and the increase in working capital, and subtracts mandatory debt repayments. If the company is borrowing new debt, net borrowing is added.
->
-> The key is matching. Unlevered free cash flow goes with WACC, because it belongs to debt and equity holders together, and the DCF gives enterprise value. Levered free cash flow goes with cost of equity and gives equity value directly. Bankers usually use unlevered DCFs because capital structure can change and the result is easier to compare across companies; levered cash flow matters more in LBOs and for banks.
-
-## Likely follow-ups
-
-**Why is unlevered FCF more common in DCFs?** It separates operating value from financing choices, which can change, and avoids forecasting the debt schedule in detail.
-
-## Common mistakes
-
-- Discounting levered FCF at WACC.
-- Subtracting interest when calculating unlevered FCF.
-- Getting the sign of the working capital change wrong.
-- Forgetting mandatory debt repayments in levered FCF.
-
-## Related questions
-
-- [Walk me through a DCF](../walk-me-through-a-dcf/)
-- [What is WACC and how do you calculate it?](../what-is-wacc-and-how-do-you-calculate-it/)
-- [How do you calculate cost of equity?](../how-do-you-calculate-cost-of-equity/)
-- [All question deep dives](../)
-- [All 100 investment banking interview questions with answers](../../)
-
-_Based on questions #49, #14, #15 in the [full question bank](../../)._
-
-{% include qpage-cta.html %}
+<h2>Related questions</h2><ul class=related><li><a href="../walk-me-through-a-dcf/">Walk me through a DCF</a></li><li><a href="../what-is-wacc-and-how-do-you-calculate-it/">What is WACC and how do you calculate it?</a></li><li><a href="../how-do-you-calculate-cost-of-equity/">How do you calculate cost of equity?</a></li><li><a href="../">All question deep dives</a></li><li><a href="../../">All 100 investment banking interview questions with answers</a></li></ul>
+<p class=muted>Based on questions #49, #14, #15 in the <a href="../../">full question bank</a>.</p>
+</div></main>
