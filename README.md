@@ -6,6 +6,8 @@ The technical questions IB analyst and associate interviews keep asking, organiz
 
 **Need the frameworks and full walkthroughs?** They're in [*The 0 to 1 Investment Banking Interview Playbook* ($19.99, instant PDF)](https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?utm_source=github&utm_medium=qbank&utm_campaign=ib_qbank_20261101): fit/behavioral, modeling tests and a prep plan.
 
+**Question deep dives:** [answer frameworks, sample answers and common mistakes for 10 of the most-asked questions](questions/) (DCF, three statements, EV vs equity value, WACC, LBO, merger model, why IB).
+
 **How to drill:** answer out loud first, then read the answer. Score yourself 1 to 5: 1 = can't start; 3 = right answer but shaky on the why; 5 = clean answer that handles the follow-up. Re-drill anything under 4. Numbers use a 25% tax rate unless stated.
 
 ## Contents

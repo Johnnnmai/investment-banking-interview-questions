@@ -1,3 +1,11 @@
 title: 100 Investment Banking Interview Questions and Answers (2026)
 description: Every question answered. Accounting, valuation, M&A, LBO, industry and fit questions for IB interviews, tagged by difficulty. Updated Nov 2026.
 theme: jekyll-theme-cayman
+
+# /questions/ pages
+qpage_site: https://johnnnmai.github.io/investment-banking-interview-questions
+qpage_cta:
+  url: https://sirjohnnymai.gumroad.com/l/ib-interview-playbook
+  headline: Need the frameworks and full walkthroughs?
+  text: The 0 to 1 Investment Banking Interview Playbook covers fit and behavioral answers, modeling tests and a prep plan.
+  button: Get the playbook
