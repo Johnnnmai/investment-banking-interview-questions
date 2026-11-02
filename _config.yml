@@ -4,13 +4,23 @@ theme: jekyll-theme-cayman
 
 # /questions/ pages
 qpage_site: https://johnnnmai.github.io/investment-banking-interview-questions
-qpage_cta:
-  url: https://sirjohnnymai.gumroad.com/l/ib-interview-playbook?offer_code=EARLYBF  # EARLYBF: 40% off until Nov 3 2026 11:59 PM PT; remove the query after that
-  headline: Need the frameworks and full walkthroughs?
-  text: The 0 to 1 Investment Banking Interview Playbook covers fit and behavioral answers, modeling tests and a prep plan.
-  button: Get the playbook
-  price: "$19.99"  # list price on the Gumroad product page, Nov 1 2026
-  product_name: "The 0&rarr;1 Investment Banking Interview Playbook"
+qpage_cta:  # paid CTA: the single paid constant for every page
+  url: https://sirjohnnymai.gumroad.com/l/xzptir?offer_code=EARLYBF  # EARLYBF: 40% off until Nov 3 2026 11:59 PM PT; remove the query after that
+  label: The Full Package
+  headline: Want the whole job search in one download?
+  text: "Four files in one bundle: a resume system, a PM, TPM and PGM interview handbook, a first 1:1 cheat sheet and the 0 to 1 PM Interview Playbook. Written for PM and TPM loops; the resume system and the 1:1 sheet fit any role. In English and Chinese."
+  button: Get the full package
+  price: "$59"  # list price on the Gumroad product page, Nov 1 2026
+  product_name: "North America Interview Full Package"
+  product_short: "Full Package"
   promo_text: "40% off with code EARLYBF until Nov 3, 11:59 PM PT"  # shown only while the url contains EARLYBF
   offer_expires: "2026-11-04T07:59:00Z"  # EARLYBF expiry from the Gumroad product page; promo lines also hide client-side after it
   site_name: "Investment Banking Interview Questions"
+free_cta:  # primary CTA: the free IB Top 30 guide (no offer code)
+  url: https://sirjohnnymai.gumroad.com/l/ib-top-30-questions
+  label: Free guide
+  headline: Start with the free IB Top 30
+  text: "IB Interview: Top 30 Questions covers the 30 most-asked investment banking interview questions with model answers. 13 pages, free on Gumroad."
+  button: Get the free Top 30
+  product_name: "IB Interview: Top 30 Questions"
+  product_short: "Top 30"
