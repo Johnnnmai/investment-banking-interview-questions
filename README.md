@@ -1,6 +1,6 @@
 # 100 Investment Banking Interview Questions and Answers (2026)
 
-**Free:** [Check your interview answer](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&utm_source=github&utm_medium=readme&utm_campaign=investment-banking-interview-questions)  |  **Weekly drill packs:** [Valenx Pass](https://valenx.org/go/pass-y?utm_source=github&utm_campaign=investment-banking-interview-questions&utm_content=readme), $79/yr, a new drill pack every Monday, cancel anytime.
+**Free:** [Check your interview answer](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/?track=ib&utm_source=github&utm_medium=readme&utm_campaign=investment-banking-interview-questions)
 
 _Last updated: November 1, 2026_ · Every question answered · Tagged by topic and difficulty · Free, no sign-up
 
