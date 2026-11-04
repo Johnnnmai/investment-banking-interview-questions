@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"{% if site.qpage_cta.url contains 'EARLYBF' %} data-offer-until="{{ site.qpage_cta.offer_expires }}"{% endif %}>
+<html lang="en"{% if site.qpage_cta.url contains 'offer_code=' and site.qpage_cta.promo_text != '' %} data-offer-until="{{ site.qpage_cta.offer_expires }}"{% endif %}>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

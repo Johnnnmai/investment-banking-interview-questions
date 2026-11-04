@@ -1,1 +1,1 @@
-{%- if site.qpage_cta.url contains 'EARLYBF' -%}<span class="{{ include.cls | default: 'badge promo' }}">{{ site.qpage_cta.promo_text }}</span>{%- endif -%}
+{%- if site.qpage_cta.url contains 'offer_code=' and site.qpage_cta.promo_text != '' -%}<span class="{{ include.cls | default: 'badge promo' }}">{{ site.qpage_cta.promo_text }}</span>{%- endif -%}
